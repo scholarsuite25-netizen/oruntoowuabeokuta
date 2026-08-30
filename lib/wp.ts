@@ -136,13 +136,15 @@ export async function getPageBySlug(slug: string): Promise<WPPage | undefined> {
 }
 
 // ── Images ──
+const FALLBACK_IMAGE = "/images/logo.png";
+
 export async function attachImages(posts: WPPost[]): Promise<PostWithImage[]> {
   return posts.map((p) => {
     const mid = p.featured_media;
     const localPath = localImageMap[String(mid)];
     return {
       ...p,
-      image: localPath || undefined,
+      image: localPath || FALLBACK_IMAGE,
       imageAlt: "",
     };
   });
