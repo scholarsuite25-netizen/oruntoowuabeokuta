@@ -43,99 +43,158 @@ export interface CategoryWithPosts extends WPCategory {
   posts: PostWithImage[];
 }
 
-// ── Supabase database types ──
+// ── Supabase database types (UUID-based) ──
 
-export type UserRole = "superadmin" | "editor" | "author" | "subscriber";
+export type UserRole = "superadmin" | "editor" | "author" | "contributor" | "subscriber";
+
+export type ArticleStatus = "draft" | "pending" | "published" | "scheduled" | "private" | "archived" | "trash";
 
 export interface Profile {
   id: string;
+  email?: string;
   full_name: string;
   role: UserRole;
   avatar_url?: string;
   bio?: string;
   created_at: string;
+  updated_at?: string;
 }
 
 export interface Category {
-  id: number;
+  id: string;
   name: string;
   slug: string;
   description?: string;
-  parent_id?: number;
+  parent_id?: string | null;
   sort_order: number;
   created_at: string;
+  updated_at?: string;
 }
 
 export interface Article {
-  id: number;
+  id: string;
   title: string;
   slug: string;
   content: string;
   excerpt: string;
   featured_image?: string;
+  featured_image_alt?: string;
+  featured_image_caption?: string;
   author_id: string;
-  category_id: number;
-  status: "draft" | "published" | "archived";
+  category_id?: string;
+  status: ArticleStatus;
   published_at?: string;
+  scheduled_at?: string;
   created_at: string;
   updated_at: string;
+  // SEO fields
+  seo_title?: string;
+  seo_description?: string;
+  seo_keywords?: string;
+  canonical_url?: string;
+  og_image?: string;
+  og_title?: string;
+  og_description?: string;
+  // Reading
+  reading_time?: number;
+  // Social
+  social_title?: string;
+  social_description?: string;
+  // Visibility
+  allow_indexing?: boolean;
 }
 
 export interface Tag {
-  id: number;
+  id: string;
   name: string;
   slug: string;
+  description?: string;
+  created_at: string;
 }
 
 export interface ArticleTag {
-  article_id: number;
-  tag_id: number;
+  article_id: string;
+  tag_id: string;
 }
 
 export interface Subscriber {
-  id: number;
+  id: string;
   email: string;
   name?: string;
-  is_active: boolean;
-  subscribed_at: string;
-  unsubscribed_at?: string;
-  token?: string;
+  active: boolean;
+  created_at: string;
 }
 
 export interface Comment {
-  id: number;
-  article_id: number;
+  id: string;
+  article_id: string;
   user_id: string;
   content: string;
+  status: "pending" | "approved" | "rejected";
   created_at: string;
-  is_flagged: boolean;
+  updated_at?: string;
 }
 
 export interface Media {
-  id: number;
-  filename: string;
-  original_url?: string;
-  local_path?: string;
-  mime_type: string;
-  size_bytes: number;
+  id: string;
+  file_name: string;
+  file_path: string;
+  file_url: string;
+  file_type: string;
+  file_size: number;
   alt_text?: string;
+  caption?: string;
+  credit?: string;
+  width?: number;
+  height?: number;
   uploaded_by?: string;
   created_at: string;
 }
 
 export interface EmailLog {
-  id: number;
-  article_id: number;
-  sent_at: string;
-  recipient_count: number;
-  status: string;
+  id: string;
+  subject: string;
+  content: string;
+  sent_count: number;
+  failed_count: number;
+  sent_by?: string;
+  created_at: string;
 }
 
 export interface SocialPost {
-  id: number;
-  article_id: number;
+  id: string;
   platform: string;
-  post_id?: string;
-  posted_at: string;
+  article_url: string;
+  content: string;
   status: string;
+  error_message?: string;
+  posted_by?: string;
+  created_at: string;
+}
+
+export interface Revision {
+  id: string;
+  article_id: string;
+  title: string;
+  content: string;
+  excerpt?: string;
+  author_id: string;
+  created_at: string;
+}
+
+export interface AuditLog {
+  id: string;
+  user_id: string;
+  action: string;
+  entity_type: string;
+  entity_id: string;
+  metadata?: Record<string, unknown>;
+  created_at: string;
+}
+
+export interface SiteSettings {
+  id: string;
+  key: string;
+  value: string;
+  group: string;
 }

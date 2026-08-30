@@ -48,19 +48,7 @@ export default function RegisterPage() {
       return;
     }
 
-    // Create profile row
-    if (data.user) {
-      const { error: profileError } = await supabase.from("profiles").insert({
-        id: data.user.id,
-        full_name: fullName,
-        role: "subscriber",
-      });
-
-      if (profileError) {
-        console.error("Profile creation error:", profileError);
-      }
-    }
-
+    // Profile is auto-created by Supabase trigger — no manual insert needed
     // Redirect to login with success message
     router.push("/login?registered=true");
   }

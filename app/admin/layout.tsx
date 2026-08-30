@@ -5,10 +5,14 @@ import LogoutButton from "./logout-button";
 const NAV = [
   { label: "Dashboard", href: "/admin" },
   { label: "Articles", href: "/admin/articles" },
+  { label: "Pages", href: "/admin/pages" },
   { label: "Media", href: "/admin/media" },
   { label: "Categories", href: "/admin/categories" },
+  { label: "Tags", href: "/admin/tags" },
   { label: "Comments", href: "/admin/comments" },
   { label: "Subscribers", href: "/admin/subscribers" },
+  { label: "Users", href: "/admin/users" },
+  { label: "Settings", href: "/admin/settings" },
 ];
 
 export default async function AdminLayout({

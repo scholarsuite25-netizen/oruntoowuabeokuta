@@ -8,23 +8,28 @@ export async function GET(request: NextRequest) {
 
   const status = searchParams.get("status");
   const category = searchParams.get("category");
+  const author = searchParams.get("author");
   const search = searchParams.get("search");
+  const tag = searchParams.get("tag");
   const page = parseInt(searchParams.get("page") || "1");
   const limit = parseInt(searchParams.get("limit") || "20");
+  const sort = searchParams.get("sort") || "created_at";
+  const order = searchParams.get("order") || "desc";
 
   let query = supabase
     .from("articles")
-    .select("*, profiles(full_name), categories(name, slug)", { count: "exact" });
+    .select("*, profiles(full_name, avatar_url), categories(name, slug), article_tags(tags(name, slug))", { count: "exact" });
 
   if (status) query = query.eq("status", status);
-  if (category) query = query.eq("category_id", parseInt(category));
+  if (category) query = query.eq("category_id", category);
+  if (author) query = query.eq("author_id", author);
   if (search) {
-    query = query.or(`title.ilike.%${search}%,content.ilike.%${search}%`);
+    query = query.or(`title.ilike.%${search}%,content.ilike.%${search}%,excerpt.ilike.%${search}%`);
   }
 
   const offset = (page - 1) * limit;
   query = query
-    .order("created_at", { ascending: false })
+    .order(sort, { ascending: order === "asc" })
     .range(offset, offset + limit - 1);
 
   const { data, count, error } = await query;
@@ -50,23 +55,55 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
+  // Check role
+  const { data: profile } = await supabase
+    .from("profiles")
+    .select("role")
+    .eq("id", user.id)
+    .single();
+
+  if (!profile || !["superadmin", "editor", "author"].includes(profile.role)) {
+    return NextResponse.json({ error: "Forbidden" }, { status: 403 });
+  }
+
   // Generate slug from title
   const slug = body.title
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-|-$/g, "");
 
+  // Check for duplicate slug
+  const { data: existing } = await supabase
+    .from("articles")
+    .select("id")
+    .eq("slug", slug)
+    .single();
+
+  const finalSlug = existing ? `${slug}-${Date.now()}` : slug;
+
   const article = {
     title: body.title,
-    slug,
+    slug: finalSlug,
     content: body.content || "",
     excerpt: body.excerpt || "",
     featured_image: body.featured_image || null,
+    featured_image_alt: body.featured_image_alt || null,
+    featured_image_caption: body.featured_image_caption || null,
     author_id: user.id,
     category_id: body.category_id || null,
     status: body.status || "draft",
-    published_at:
-      body.status === "published" ? new Date().toISOString() : null,
+    published_at: body.status === "published" ? new Date().toISOString() : null,
+    scheduled_at: body.scheduled_at || null,
+    seo_title: body.seo_title || null,
+    seo_description: body.seo_description || null,
+    seo_keywords: body.seo_keywords || null,
+    canonical_url: body.canonical_url || null,
+    og_image: body.og_image || null,
+    og_title: body.og_title || null,
+    og_description: body.og_description || null,
+    social_title: body.social_title || null,
+    social_description: body.social_description || null,
+    allow_indexing: body.allow_indexing !== false,
   };
 
   const { data, error } = await supabase
@@ -77,6 +114,15 @@ export async function POST(request: NextRequest) {
 
   if (error) {
     return NextResponse.json({ error: error.message }, { status: 500 });
+  }
+
+  // Handle tags
+  if (body.tags && Array.isArray(body.tags) && data) {
+    const tagRelations = body.tags.map((tagId: string) => ({
+      article_id: data.id,
+      tag_id: tagId,
+    }));
+    await supabase.from("article_tags").insert(tagRelations);
   }
 
   return NextResponse.json({ article: data }, { status: 201 });
