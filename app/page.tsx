@@ -29,13 +29,14 @@ export default async function Home() {
     (c) => c.slug !== "uncategorized" && c.count > 0
   );
 
-  const [latest, hot, trending, featured, latestList, ...sectionPosts] =
+  const [latest, hot, trending, featured, latestList, moreArticles, ...sectionPosts] =
     await Promise.all([
       getPostsWithImages({ perPage: 5 }),
       getPostsWithImages({ perPage: 8 }),
       getPostsWithImages({ category: bySlug["trending-news"]?.id, perPage: 4 }),
       getPostsWithImages({ category: bySlug["featured"]?.id, perPage: 4 }),
       getPostsWithImages({ perPage: 8 }),
+      getPostsWithImages({ perPage: 15 }),
       ...homeCats.map((c) =>
         getPostsWithImages({ category: c.id, perPage: 3 })
       ),
@@ -197,6 +198,29 @@ export default async function Home() {
                 </a>
               </div>
             </div>
+          </div>
+
+          <div className="panel">
+            <h3>Recent Articles</h3>
+            <ul className="hot-list">
+              {moreArticles.map((p) => (
+                <li key={p.id}>
+                  <div className="t">
+                    {p.image && (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img src={p.image} alt={p.imageAlt || ""} loading="lazy" />
+                    )}
+                  </div>
+                  <div>
+                    <Link href={`/post/${p.slug}`}>{p.title.rendered}</Link>
+                    <span className="meta">{formatDate(p.date)}</span>
+                  </div>
+                </li>
+              ))}
+            </ul>
+            <Link href="/category/news" className="view-all">
+              View All Articles →
+            </Link>
           </div>
         </aside>
       </div>
