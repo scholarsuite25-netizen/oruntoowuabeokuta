@@ -19,28 +19,51 @@ function formatDate(iso: string): string {
   }
 }
 
+function getMonthYear(iso: string): string {
+  try {
+    return new Date(iso).toLocaleDateString("en-GB", {
+      month: "long",
+      year: "numeric",
+    });
+  } catch {
+    return "";
+  }
+}
+
 export default async function Home() {
   const categories = await getCategories();
   const bySlug: Record<string, (typeof categories)[number]> = {};
   categories.forEach((c) => (bySlug[c.slug] = c));
 
-  // Show every category that actually has articles (skip empty / uncategorized).
   const homeCats = categories.filter(
     (c) => c.slug !== "uncategorized" && c.count > 0
   );
 
-  const [latest, hot, trending, featured, latestList, moreArticles, ...sectionPosts] =
-    await Promise.all([
-      getPostsWithImages({ perPage: 5 }),
-      getPostsWithImages({ perPage: 8 }),
-      getPostsWithImages({ category: bySlug["trending-news"]?.id, perPage: 4 }),
-      getPostsWithImages({ category: bySlug["featured"]?.id, perPage: 4 }),
-      getPostsWithImages({ perPage: 8 }),
-      getPostsWithImages({ perPage: 15 }),
-      ...homeCats.map((c) =>
-        getPostsWithImages({ category: c.id, perPage: 3 })
-      ),
-    ]);
+  const [
+    latest,
+    hot,
+    trending,
+    featured,
+    latestList,
+    recentArticles,
+    oruntoPosts,
+    owuPosts,
+    abeokutaPosts,
+    culturePosts,
+    ...sectionPosts
+  ] = await Promise.all([
+    getPostsWithImages({ perPage: 5 }),
+    getPostsWithImages({ perPage: 10 }),
+    getPostsWithImages({ category: bySlug["trending-news"]?.id, perPage: 6 }),
+    getPostsWithImages({ category: bySlug["featured"]?.id, perPage: 6 }),
+    getPostsWithImages({ perPage: 10 }),
+    getPostsWithImages({ perPage: 20 }),
+    getPostsWithImages({ category: bySlug["orunto"]?.id, perPage: 5 }),
+    getPostsWithImages({ category: bySlug["owu"]?.id, perPage: 5 }),
+    getPostsWithImages({ category: bySlug["abeokuta"]?.id, perPage: 5 }),
+    getPostsWithImages({ category: bySlug["culturee"]?.id, perPage: 5 }),
+    ...homeCats.map((c) => getPostsWithImages({ category: c.id, perPage: 3 })),
+  ]);
 
   const hero = latest[0];
   const leadList = latest.slice(1, 5);
@@ -54,9 +77,15 @@ export default async function Home() {
     return c?.name ?? "";
   };
 
+  // Build archive months from recent articles
+  const archiveMonths = new Map<string, number>();
+  recentArticles.forEach((p) => {
+    const month = getMonthYear(p.date);
+    if (month) archiveMonths.set(month, (archiveMonths.get(month) || 0) + 1);
+  });
+
   return (
     <div className="container">
-      {/* Featured lead */}
       {hero && (
         <div className="lead-grid">
           <Link href={`/post/${hero.slug}`} className="lead">
@@ -103,6 +132,7 @@ export default async function Home() {
         </div>
 
         <aside className="sidebar">
+          {/* What's Hot */}
           <div className="panel">
             <h3>What&apos;s Hot</h3>
             <ul className="hot-list">
@@ -114,21 +144,37 @@ export default async function Home() {
                       <img src={p.image} alt={p.imageAlt || ""} loading="lazy" />
                     )}
                   </div>
-                  <Link href={`/post/${p.slug}`}>{p.title.rendered}</Link>
+                  <div>
+                    <Link href={`/post/${p.slug}`}>{p.title.rendered}</Link>
+                    <span className="meta">{formatDate(p.date)}</span>
+                  </div>
                 </li>
               ))}
             </ul>
           </div>
 
+          {/* Trending News */}
           <div className="panel">
             <h3>Trending News</h3>
-            <div className="grid cols-2">
+            <ul className="hot-list">
               {trending.map((p) => (
-                <ArticleCard key={p.id} post={p} />
+                <li key={p.id}>
+                  <div className="t">
+                    {p.image && (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img src={p.image} alt={p.imageAlt || ""} loading="lazy" />
+                    )}
+                  </div>
+                  <div>
+                    <Link href={`/post/${p.slug}`}>{p.title.rendered}</Link>
+                    <span className="meta">{formatDate(p.date)}</span>
+                  </div>
+                </li>
               ))}
-            </div>
+            </ul>
           </div>
 
+          {/* Featured */}
           <div className="panel">
             <h3>Featured</h3>
             <ul className="hot-list">
@@ -140,12 +186,112 @@ export default async function Home() {
                       <img src={p.image} alt={p.imageAlt || ""} loading="lazy" />
                     )}
                   </div>
-                  <Link href={`/post/${p.slug}`}>{p.title.rendered}</Link>
+                  <div>
+                    <Link href={`/post/${p.slug}`}>{p.title.rendered}</Link>
+                    <span className="meta">{formatDate(p.date)}</span>
+                  </div>
                 </li>
               ))}
             </ul>
           </div>
 
+          {/* Orunto */}
+          {oruntoPosts.length > 0 && (
+            <div className="panel">
+              <h3>Orunto</h3>
+              <ul className="hot-list">
+                {oruntoPosts.map((p) => (
+                  <li key={p.id}>
+                    <div className="t">
+                      {p.image && (
+                        // eslint-disable-next-line @next/next/no-img-element
+                        <img src={p.image} alt={p.imageAlt || ""} loading="lazy" />
+                      )}
+                    </div>
+                    <div>
+                      <Link href={`/post/${p.slug}`}>{p.title.rendered}</Link>
+                      <span className="meta">{formatDate(p.date)}</span>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+              <Link href="/category/orunto" className="view-all-sm">View All →</Link>
+            </div>
+          )}
+
+          {/* Owu */}
+          {owuPosts.length > 0 && (
+            <div className="panel">
+              <h3>Owu Heritage</h3>
+              <ul className="hot-list">
+                {owuPosts.map((p) => (
+                  <li key={p.id}>
+                    <div className="t">
+                      {p.image && (
+                        // eslint-disable-next-line @next/next/no-img-element
+                        <img src={p.image} alt={p.imageAlt || ""} loading="lazy" />
+                      )}
+                    </div>
+                    <div>
+                      <Link href={`/post/${p.slug}`}>{p.title.rendered}</Link>
+                      <span className="meta">{formatDate(p.date)}</span>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+              <Link href="/category/owu" className="view-all-sm">View All →</Link>
+            </div>
+          )}
+
+          {/* Abeokuta */}
+          {abeokutaPosts.length > 0 && (
+            <div className="panel">
+              <h3>Abeokuta</h3>
+              <ul className="hot-list">
+                {abeokutaPosts.map((p) => (
+                  <li key={p.id}>
+                    <div className="t">
+                      {p.image && (
+                        // eslint-disable-next-line @next/next/no-img-element
+                        <img src={p.image} alt={p.imageAlt || ""} loading="lazy" />
+                      )}
+                    </div>
+                    <div>
+                      <Link href={`/post/${p.slug}`}>{p.title.rendered}</Link>
+                      <span className="meta">{formatDate(p.date)}</span>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+              <Link href="/category/abeokuta" className="view-all-sm">View All →</Link>
+            </div>
+          )}
+
+          {/* Culture */}
+          {culturePosts.length > 0 && (
+            <div className="panel">
+              <h3>Culture</h3>
+              <ul className="hot-list">
+                {culturePosts.map((p) => (
+                  <li key={p.id}>
+                    <div className="t">
+                      {p.image && (
+                        // eslint-disable-next-line @next/next/no-img-element
+                        <img src={p.image} alt={p.imageAlt || ""} loading="lazy" />
+                      )}
+                    </div>
+                    <div>
+                      <Link href={`/post/${p.slug}`}>{p.title.rendered}</Link>
+                      <span className="meta">{formatDate(p.date)}</span>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+              <Link href="/category/culturee" className="view-all-sm">View All →</Link>
+            </div>
+          )}
+
+          {/* Latest News */}
           <div className="panel">
             <h3>Latest News</h3>
             <ul className="link-list">
@@ -158,6 +304,41 @@ export default async function Home() {
             </ul>
           </div>
 
+          {/* Recent Articles */}
+          <div className="panel">
+            <h3>Recent Articles</h3>
+            <ul className="hot-list">
+              {recentArticles.slice(0, 15).map((p) => (
+                <li key={p.id}>
+                  <div className="t">
+                    {p.image && (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img src={p.image} alt={p.imageAlt || ""} loading="lazy" />
+                    )}
+                  </div>
+                  <div>
+                    <Link href={`/post/${p.slug}`}>{p.title.rendered}</Link>
+                    <span className="meta">{formatDate(p.date)}</span>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Archive */}
+          <div className="panel">
+            <h3>Archive</h3>
+            <ul className="archive-list">
+              {Array.from(archiveMonths.entries()).map(([month, count]) => (
+                <li key={month}>
+                  <span>{month}</span>
+                  <span className="archive-count">{count}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Browse Topics */}
           <div className="panel">
             <h3>Browse Topics</h3>
             <div className="tag-cloud">
@@ -171,6 +352,7 @@ export default async function Home() {
             </div>
           </div>
 
+          {/* About the Founder */}
           <div className="panel profile">
             <h3>About the Founder</h3>
             <div className="profile-card">
@@ -198,29 +380,6 @@ export default async function Home() {
                 </a>
               </div>
             </div>
-          </div>
-
-          <div className="panel">
-            <h3>Recent Articles</h3>
-            <ul className="hot-list">
-              {moreArticles.map((p) => (
-                <li key={p.id}>
-                  <div className="t">
-                    {p.image && (
-                      // eslint-disable-next-line @next/next/no-img-element
-                      <img src={p.image} alt={p.imageAlt || ""} loading="lazy" />
-                    )}
-                  </div>
-                  <div>
-                    <Link href={`/post/${p.slug}`}>{p.title.rendered}</Link>
-                    <span className="meta">{formatDate(p.date)}</span>
-                  </div>
-                </li>
-              ))}
-            </ul>
-            <Link href="/category/news" className="view-all">
-              View All Articles →
-            </Link>
           </div>
         </aside>
       </div>
