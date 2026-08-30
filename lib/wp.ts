@@ -136,7 +136,7 @@ export async function getPageBySlug(slug: string): Promise<WPPage | undefined> {
 }
 
 // ── Images ──
-const FALLBACK_IMAGE = "/images/logo.png";
+const FALLBACK_IMAGE = "/images/fallback-red.svg";
 
 export async function attachImages(posts: WPPost[]): Promise<PostWithImage[]> {
   return posts.map((p) => {
