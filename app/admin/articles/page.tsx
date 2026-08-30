@@ -1,26 +1,100 @@
+"use client";
+
+import { useState, useEffect } from "react";
 import Link from "next/link";
-import { createClient } from "@/lib/supabase";
 
-export default async function ArticlesPage({
-  searchParams,
-}: {
-  searchParams: { status?: string; search?: string };
-}) {
-  const supabase = createClient();
-  const status = searchParams.status || "";
-  const search = searchParams.search || "";
+interface Article {
+  id: string;
+  title: string;
+  slug: string;
+  status: string;
+  profiles?: { full_name: string };
+  categories?: { name: string };
+  created_at: string;
+  featured_image?: string;
+}
 
-  let query = supabase
-    .from("articles")
-    .select("*, profiles(full_name), categories(name, slug)", { count: "exact" })
-    .order("created_at", { ascending: false });
+export default function ArticlesPage() {
+  const [articles, setArticles] = useState<Article[]>([]);
+  const [total, setTotal] = useState(0);
+  const [loading, setLoading] = useState(true);
+  const [search, setSearch] = useState("");
+  const [statusFilter, setStatusFilter] = useState("");
+  const [page, setPage] = useState(1);
+  const [selected, setSelected] = useState<string[]>([]);
+  const [bulkAction, setBulkAction] = useState("");
+  const limit = 20;
 
-  if (status) query = query.eq("status", status);
-  if (search) {
-    query = query.or(`title.ilike.%${search}%,content.ilike.%${search}%`);
+  useEffect(() => {
+    fetchArticles();
+  }, [statusFilter, page]);
+
+  async function fetchArticles() {
+    setLoading(true);
+    const params = new URLSearchParams({
+      page: String(page),
+      limit: String(limit),
+    });
+    if (statusFilter) params.set("status", statusFilter);
+    if (search) params.set("search", search);
+
+    const res = await fetch(`/api/articles?${params.toString()}`);
+    const data = await res.json();
+    setArticles(data.articles || []);
+    setTotal(data.total || 0);
+    setLoading(false);
   }
 
-  const { data: articles, count } = await query;
+  async function handleBulkAction() {
+    if (!bulkAction || selected.length === 0) return;
+
+    if (!confirm(`${bulkAction} ${selected.length} article(s)?`)) return;
+
+    for (const id of selected) {
+      const updates: Record<string, unknown> = {};
+
+      if (bulkAction === "publish") {
+        updates.status = "published";
+      } else if (bulkAction === "draft") {
+        updates.status = "draft";
+      } else if (bulkAction === "trash") {
+        updates.status = "trash";
+      } else if (bulkAction === "delete") {
+        await fetch(`/api/articles/${id}`, { method: "DELETE" });
+        continue;
+      }
+
+      if (Object.keys(updates).length > 0) {
+        await fetch(`/api/articles/${id}`, {
+          method: "PUT",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(updates),
+        });
+      }
+    }
+
+    setSelected([]);
+    setBulkAction("");
+    fetchArticles();
+  }
+
+  function toggleSelect(id: string) {
+    setSelected((prev) =>
+      prev.includes(id) ? prev.filter((i) => i !== id) : [...prev, id]
+    );
+  }
+
+  function toggleSelectAll() {
+    if (selected.length === articles.length) {
+      setSelected([]);
+    } else {
+      setSelected(articles.map((a) => a.id));
+    }
+  }
+
+  const totalPages = Math.ceil(total / limit);
+
+  if (loading) return <div className="admin-content">Loading...</div>;
 
   return (
     <div className="admin-content">
@@ -33,49 +107,68 @@ export default async function ArticlesPage({
 
       <div className="admin-filters">
         <div className="filter-group">
-          <a href="/admin/articles" className={!status ? "active" : ""}>
-            All
-          </a>
-          <a
-            href="/admin/articles?status=draft"
-            className={status === "draft" ? "active" : ""}
-          >
+          <button className={!statusFilter ? "active" : ""} onClick={() => { setStatusFilter(""); setPage(1); }}>
+            All ({total})
+          </button>
+          <button className={statusFilter === "draft" ? "active" : ""} onClick={() => { setStatusFilter("draft"); setPage(1); }}>
             Draft
-          </a>
-          <a
-            href="/admin/articles?status=published"
-            className={status === "published" ? "active" : ""}
-          >
+          </button>
+          <button className={statusFilter === "pending" ? "active" : ""} onClick={() => { setStatusFilter("pending"); setPage(1); }}>
+            Pending
+          </button>
+          <button className={statusFilter === "published" ? "active" : ""} onClick={() => { setStatusFilter("published"); setPage(1); }}>
             Published
-          </a>
-          <a
-            href="/admin/articles?status=archived"
-            className={status === "archived" ? "active" : ""}
-          >
-            Archived
-          </a>
+          </button>
+          <button className={statusFilter === "scheduled" ? "active" : ""} onClick={() => { setStatusFilter("scheduled"); setPage(1); }}>
+            Scheduled
+          </button>
+          <button className={statusFilter === "trash" ? "active" : ""} onClick={() => { setStatusFilter("trash"); setPage(1); }}>
+            Trash
+          </button>
         </div>
 
-        <form className="search-form">
+        <div className="search-form">
           <input
             type="text"
-            name="search"
-            defaultValue={search}
             placeholder="Search articles..."
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            onKeyDown={(e) => e.key === "Enter" && fetchArticles()}
           />
-          {status && <input type="hidden" name="status" value={status} />}
-          <button type="submit">Search</button>
-        </form>
+        </div>
       </div>
 
-      <div className="admin-info">
-        {count ?? 0} article{(count ?? 0) !== 1 ? "s" : ""}
-      </div>
+      {/* Bulk Actions */}
+      {selected.length > 0 && (
+        <div className="bulk-actions">
+          <span>{selected.length} selected</span>
+          <select value={bulkAction} onChange={(e) => setBulkAction(e.target.value)}>
+            <option value="">Bulk Actions</option>
+            <option value="publish">Publish</option>
+            <option value="draft">Set to Draft</option>
+            <option value="trash">Move to Trash</option>
+            <option value="delete">Delete Permanently</option>
+          </select>
+          <button className="btn-primary btn-sm" onClick={handleBulkAction} disabled={!bulkAction}>
+            Apply
+          </button>
+          <button className="btn-secondary btn-sm" onClick={() => setSelected([])}>
+            Clear
+          </button>
+        </div>
+      )}
 
-      {articles && articles.length > 0 ? (
+      {articles.length > 0 ? (
         <table className="admin-table">
           <thead>
             <tr>
+              <th style={{ width: 40 }}>
+                <input
+                  type="checkbox"
+                  checked={selected.length === articles.length && articles.length > 0}
+                  onChange={toggleSelectAll}
+                />
+              </th>
               <th>Title</th>
               <th>Category</th>
               <th>Author</th>
@@ -88,6 +181,13 @@ export default async function ArticlesPage({
             {articles.map((article) => (
               <tr key={article.id}>
                 <td>
+                  <input
+                    type="checkbox"
+                    checked={selected.includes(article.id)}
+                    onChange={() => toggleSelect(article.id)}
+                  />
+                </td>
+                <td>
                   <strong>{article.title}</strong>
                 </td>
                 <td>{article.categories?.name || "-"}</td>
@@ -97,15 +197,13 @@ export default async function ArticlesPage({
                     {article.status}
                   </span>
                 </td>
-                <td>
-                  {new Date(article.created_at).toLocaleDateString("en-GB")}
-                </td>
+                <td>{new Date(article.created_at).toLocaleDateString("en-GB")}</td>
                 <td>
                   <div className="action-links">
-                    <Link href={`/admin/articles/${article.id}/edit`}>
+                    <Link href={`/admin/articles/${article.id}/edit`} className="link-btn">
                       Edit
                     </Link>
-                    <Link href={`/post/${article.slug}`} target="_blank">
+                    <Link href={`/post/${article.slug}`} target="_blank" className="link-btn">
                       View
                     </Link>
                   </div>
@@ -118,6 +216,29 @@ export default async function ArticlesPage({
         <div className="empty-state">
           No articles found.{" "}
           <Link href="/admin/articles/new">Create your first article</Link>.
+        </div>
+      )}
+
+      {/* Pagination */}
+      {totalPages > 1 && (
+        <div className="pagination">
+          <button
+            className="btn-secondary btn-sm"
+            disabled={page <= 1}
+            onClick={() => setPage(page - 1)}
+          >
+            Previous
+          </button>
+          <span className="pagination-info">
+            Page {page} of {totalPages}
+          </span>
+          <button
+            className="btn-secondary btn-sm"
+            disabled={page >= totalPages}
+            onClick={() => setPage(page + 1)}
+          >
+            Next
+          </button>
         </div>
       )}
     </div>

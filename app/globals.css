@@ -1316,6 +1316,62 @@ img { max-width: 100%; display: block; }
 .filter-group a:hover { background: #f1f3f5; color: #333; }
 .filter-group a.active { background: var(--dark); color: #fff; }
 
+.filter-group button {
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #666;
+  background: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all .15s;
+}
+.filter-group button:hover { background: #f1f3f5; color: #333; }
+.filter-group button.active { background: var(--dark); color: #fff; }
+
+.bulk-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  background: #fff3cd;
+  border: 1px solid #ffc107;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  font-size: 13px;
+}
+.bulk-actions select {
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 13px;
+}
+.btn-sm {
+  padding: 6px 14px;
+  font-size: 13px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+}
+.pagination-info {
+  font-size: 13px;
+  color: #666;
+}
+
+.admin-table input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
 .search-form {
   display: flex;
   gap: 8px;

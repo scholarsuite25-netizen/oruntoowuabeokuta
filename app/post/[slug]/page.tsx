@@ -13,6 +13,8 @@ import ArticleCard from "@/components/ArticleCard";
 import CommentsSection from "@/components/CommentsSection";
 import ShareButtons from "@/components/ShareButtons";
 
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://oruntoowuabeokuta.org.ng";
+
 function stripSrcset(html: string): string {
   return html.replace(/\ssrcset="[^"]*"/g, "");
 }
@@ -29,14 +31,48 @@ function formatDate(iso: string): string {
   }
 }
 
+function stripHtml(html?: string): string {
+  if (!html) return "";
+  return html.replace(/<[^>]+>/g, "").trim();
+}
+
 export async function generateMetadata({
   params,
 }: {
   params: { slug: string };
 }): Promise<Metadata> {
   const post = await getPostBySlug(params.slug);
+  if (!post) return { title: "Article Not Found" };
+
+  const [withImg] = await Promise.all([attachImages([post]).then((r) => r[0])]);
+
+  const title = post.title.rendered;
+  const description = stripHtml(post.excerpt.rendered).slice(0, 160);
+  const url = `${SITE_URL}/post/${post.slug}`;
+  const image = withImg.image ? `${SITE_URL}${withImg.image}` : undefined;
+
   return {
-    title: post ? post.title.rendered : "Article",
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      url,
+      siteName: "Orunto Owu Abeokuta",
+      images: image ? [{ url: image, width: 1200, height: 630 }] : [],
+      locale: "en_US",
+      type: "article",
+      publishedTime: post.date,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: image ? [image] : [],
+    },
+    alternates: {
+      canonical: url,
+    },
   };
 }
 
@@ -71,44 +107,76 @@ export default async function PostPage({
   const hasFeaturedInContent = firstImgMatch && withImg.image &&
     firstImgMatch[1].includes(withImg.image.split("/").pop() || "");
 
+  const url = `${SITE_URL}/post/${post.slug}`;
+  const image = withImg.image ? `${SITE_URL}${withImg.image}` : undefined;
+
+  // JSON-LD structured data
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: post.title.rendered,
+    description: stripHtml(post.excerpt.rendered).slice(0, 300),
+    image: image ? [image] : undefined,
+    datePublished: post.date,
+    dateModified: post.date,
+    author: {
+      "@type": "Organization",
+      name: "Orunto Owu Abeokuta",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Orunto Owu Abeokuta",
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": url,
+    },
+  };
+
   return (
-    <div className="container">
-      <article className="article">
-        <span className="cat">{catNames.join(" · ")}</span>
-        <h1>{post.title.rendered}</h1>
-        <div className="meta">
-          {formatDate(post.date)} &middot; {readTime} min read
-        </div>
-        {withImg.image && !hasFeaturedInContent && (
-          <div className="article-featured">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={withImg.image}
-              alt={withImg.imageAlt || post.title.rendered}
-            />
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <div className="container">
+        <article className="article">
+          <span className="cat">{catNames.join(" · ")}</span>
+          <h1>{post.title.rendered}</h1>
+          <div className="meta">
+            {formatDate(post.date)} &middot; {readTime} min read
           </div>
+          {withImg.image && !hasFeaturedInContent && (
+            <div className="article-featured">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={withImg.image}
+                alt={withImg.imageAlt || post.title.rendered}
+              />
+            </div>
+          )}
+          <div
+            className="prose"
+            dangerouslySetInnerHTML={{ __html: contentHtml }}
+          />
+          <ShareButtons title={post.title.rendered} slug={post.slug} />
+        </article>
+
+        <CommentsSection articleId={post.id} />
+
+        {relatedFiltered.length > 0 && (
+          <section className="section">
+            <div className="section-head">
+              <h2>Related</h2>
+            </div>
+            <div className="grid cols-3">
+              {relatedFiltered.map((p) => (
+                <ArticleCard key={p.id} post={p} />
+              ))}
+            </div>
+          </section>
         )}
-        <div
-          className="prose"
-          dangerouslySetInnerHTML={{ __html: contentHtml }}
-        />
-        <ShareButtons title={post.title.rendered} slug={post.slug} />
-      </article>
-
-      <CommentsSection articleId={post.id} />
-
-      {relatedFiltered.length > 0 && (
-        <section className="section">
-          <div className="section-head">
-            <h2>Related</h2>
-          </div>
-          <div className="grid cols-3">
-            {relatedFiltered.map((p) => (
-              <ArticleCard key={p.id} post={p} />
-            ))}
-          </div>
-        </section>
-      )}
-    </div>
+      </div>
+    </>
   );
 }
