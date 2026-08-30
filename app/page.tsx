@@ -336,6 +336,18 @@ export default async function Home() {
                 </li>
               ))}
             </ul>
+            <Link
+              href="/archive"
+              style={{
+                display: "block",
+                marginTop: 12,
+                fontSize: 13,
+                fontWeight: 700,
+                color: "#cc0000",
+              }}
+            >
+              View All Articles →
+            </Link>
           </div>
 
           {/* Browse Topics */}
