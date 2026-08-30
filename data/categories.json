@@ -1,0 +1,3337 @@
+[
+  {
+    "id": 58,
+    "count": 101,
+    "description": "",
+    "link": "https://oruntoowuabeokuta.org.ng/news/",
+    "name": "News",
+    "slug": "news",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "aioseo_head": "\n\t\t<!-- All in One SEO 4.9.9 - aioseo.com -->\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"google-site-verification\" content=\"SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ\" />\n\t<link rel=\"canonical\" href=\"https://oruntoowuabeokuta.org.ng/news/\" />\n\t<meta name=\"generator\" content=\"All in One SEO (AIOSEO) 4.9.9\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/oruntoowuabeokuta.org.ng\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/news\\/#listItem\",\"name\":\"News\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/news\\/#listItem\",\"position\":2,\"name\":\"News\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"name\":\"Home\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#collectionpage\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/\",\"name\":\"News - Orunto Owu Abeokuta\",\"inLanguage\":\"en-GB\",\"isPartOf\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\"}},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"telephone\":\"+2348037171759\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-content\\/uploads\\/2025\\/02\\/ORUNTO-OWU-ABEOKUTA-TT.png\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\",\"width\":365,\"height\":60},\"image\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"inLanguage\":\"en-GB\",\"publisher\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO -->\n\n",
+    "aioseo_head_json": {
+      "title": "News - Orunto Owu Abeokuta",
+      "description": "",
+      "canonical_url": "https://oruntoowuabeokuta.org.ng/news/",
+      "robots": "max-image-preview:large",
+      "keywords": "",
+      "webmasterTools": {
+        "google-site-verification": "SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ",
+        "miscellaneous": ""
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://oruntoowuabeokuta.org.ng",
+                "nextItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng/news/#listItem",
+                  "name": "News"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng/news/#listItem",
+                "position": 2,
+                "name": "News",
+                "previousItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                  "name": "Home"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#collectionpage",
+            "url": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/",
+            "name": "News - Orunto Owu Abeokuta",
+            "inLanguage": "en-GB",
+            "isPartOf": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#website"
+            },
+            "breadcrumb": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist"
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://oruntoowuabeokuta.org.ng/#organization",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "telephone": "+2348037171759",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://oruntoowuabeokuta.org.ng/wp-content/uploads/2025/02/ORUNTO-OWU-ABEOKUTA-TT.png",
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo",
+              "width": 365,
+              "height": 60
+            },
+            "image": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://oruntoowuabeokuta.org.ng/#website",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "inLanguage": "en-GB",
+            "publisher": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#organization"
+            }
+          }
+        ]
+      }
+    },
+    "aioseo_breadcrumb": "<div class=\"aioseo-breadcrumbs\"><span class=\"aioseo-breadcrumb\">\n\t\t\t<a href=\"https://oruntoowuabeokuta.org.ng\" title=\"Home\">Home</a>\n\t\t</span><span class=\"aioseo-breadcrumb-separator\">»</span><span class=\"aioseo-breadcrumb\">\n\t\t\tNews\n\t\t</span></div>",
+    "aioseo_breadcrumb_json": [
+      {
+        "label": "Home",
+        "link": "https://oruntoowuabeokuta.org.ng"
+      },
+      {
+        "label": "News",
+        "link": "https://oruntoowuabeokuta.org.ng/news/"
+      }
+    ],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/58",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/posts?categories=58"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 57,
+    "count": 74,
+    "description": "",
+    "link": "https://oruntoowuabeokuta.org.ng/culturee/",
+    "name": "Culture",
+    "slug": "culturee",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "aioseo_head": "\n\t\t<!-- All in One SEO 4.9.9 - aioseo.com -->\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"google-site-verification\" content=\"SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ\" />\n\t<link rel=\"canonical\" href=\"https://oruntoowuabeokuta.org.ng/culturee/\" />\n\t<meta name=\"generator\" content=\"All in One SEO (AIOSEO) 4.9.9\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/oruntoowuabeokuta.org.ng\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/culturee\\/#listItem\",\"name\":\"Culture\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/culturee\\/#listItem\",\"position\":2,\"name\":\"Culture\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"name\":\"Home\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#collectionpage\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/\",\"name\":\"Culture - Orunto Owu Abeokuta\",\"inLanguage\":\"en-GB\",\"isPartOf\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\"}},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"telephone\":\"+2348037171759\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-content\\/uploads\\/2025\\/02\\/ORUNTO-OWU-ABEOKUTA-TT.png\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\",\"width\":365,\"height\":60},\"image\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"inLanguage\":\"en-GB\",\"publisher\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO -->\n\n",
+    "aioseo_head_json": {
+      "title": "Culture - Orunto Owu Abeokuta",
+      "description": "",
+      "canonical_url": "https://oruntoowuabeokuta.org.ng/culturee/",
+      "robots": "max-image-preview:large",
+      "keywords": "",
+      "webmasterTools": {
+        "google-site-verification": "SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ",
+        "miscellaneous": ""
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://oruntoowuabeokuta.org.ng",
+                "nextItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng/culturee/#listItem",
+                  "name": "Culture"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng/culturee/#listItem",
+                "position": 2,
+                "name": "Culture",
+                "previousItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                  "name": "Home"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#collectionpage",
+            "url": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/",
+            "name": "Culture - Orunto Owu Abeokuta",
+            "inLanguage": "en-GB",
+            "isPartOf": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#website"
+            },
+            "breadcrumb": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist"
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://oruntoowuabeokuta.org.ng/#organization",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "telephone": "+2348037171759",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://oruntoowuabeokuta.org.ng/wp-content/uploads/2025/02/ORUNTO-OWU-ABEOKUTA-TT.png",
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo",
+              "width": 365,
+              "height": 60
+            },
+            "image": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://oruntoowuabeokuta.org.ng/#website",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "inLanguage": "en-GB",
+            "publisher": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#organization"
+            }
+          }
+        ]
+      }
+    },
+    "aioseo_breadcrumb": "<div class=\"aioseo-breadcrumbs\"><span class=\"aioseo-breadcrumb\">\n\t\t\t<a href=\"https://oruntoowuabeokuta.org.ng\" title=\"Home\">Home</a>\n\t\t</span><span class=\"aioseo-breadcrumb-separator\">»</span><span class=\"aioseo-breadcrumb\">\n\t\t\tCulture\n\t\t</span></div>",
+    "aioseo_breadcrumb_json": [
+      {
+        "label": "Home",
+        "link": "https://oruntoowuabeokuta.org.ng"
+      },
+      {
+        "label": "Culture",
+        "link": "https://oruntoowuabeokuta.org.ng/culturee/"
+      }
+    ],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/57",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/posts?categories=57"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 46,
+    "count": 72,
+    "description": "",
+    "link": "https://oruntoowuabeokuta.org.ng/abeokuta/",
+    "name": "Abeokuta",
+    "slug": "abeokuta",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "aioseo_head": "\n\t\t<!-- All in One SEO 4.9.9 - aioseo.com -->\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"google-site-verification\" content=\"SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ\" />\n\t<link rel=\"canonical\" href=\"https://oruntoowuabeokuta.org.ng/abeokuta/\" />\n\t<meta name=\"generator\" content=\"All in One SEO (AIOSEO) 4.9.9\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/oruntoowuabeokuta.org.ng\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/abeokuta\\/#listItem\",\"name\":\"Abeokuta\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/abeokuta\\/#listItem\",\"position\":2,\"name\":\"Abeokuta\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"name\":\"Home\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#collectionpage\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/\",\"name\":\"Abeokuta - Orunto Owu Abeokuta\",\"inLanguage\":\"en-GB\",\"isPartOf\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\"}},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"telephone\":\"+2348037171759\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-content\\/uploads\\/2025\\/02\\/ORUNTO-OWU-ABEOKUTA-TT.png\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\",\"width\":365,\"height\":60},\"image\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"inLanguage\":\"en-GB\",\"publisher\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO -->\n\n",
+    "aioseo_head_json": {
+      "title": "Abeokuta - Orunto Owu Abeokuta",
+      "description": "",
+      "canonical_url": "https://oruntoowuabeokuta.org.ng/abeokuta/",
+      "robots": "max-image-preview:large",
+      "keywords": "",
+      "webmasterTools": {
+        "google-site-verification": "SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ",
+        "miscellaneous": ""
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://oruntoowuabeokuta.org.ng",
+                "nextItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng/abeokuta/#listItem",
+                  "name": "Abeokuta"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng/abeokuta/#listItem",
+                "position": 2,
+                "name": "Abeokuta",
+                "previousItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                  "name": "Home"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#collectionpage",
+            "url": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/",
+            "name": "Abeokuta - Orunto Owu Abeokuta",
+            "inLanguage": "en-GB",
+            "isPartOf": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#website"
+            },
+            "breadcrumb": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist"
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://oruntoowuabeokuta.org.ng/#organization",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "telephone": "+2348037171759",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://oruntoowuabeokuta.org.ng/wp-content/uploads/2025/02/ORUNTO-OWU-ABEOKUTA-TT.png",
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo",
+              "width": 365,
+              "height": 60
+            },
+            "image": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://oruntoowuabeokuta.org.ng/#website",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "inLanguage": "en-GB",
+            "publisher": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#organization"
+            }
+          }
+        ]
+      }
+    },
+    "aioseo_breadcrumb": "<div class=\"aioseo-breadcrumbs\"><span class=\"aioseo-breadcrumb\">\n\t\t\t<a href=\"https://oruntoowuabeokuta.org.ng\" title=\"Home\">Home</a>\n\t\t</span><span class=\"aioseo-breadcrumb-separator\">»</span><span class=\"aioseo-breadcrumb\">\n\t\t\tAbeokuta\n\t\t</span></div>",
+    "aioseo_breadcrumb_json": [
+      {
+        "label": "Home",
+        "link": "https://oruntoowuabeokuta.org.ng"
+      },
+      {
+        "label": "Abeokuta",
+        "link": "https://oruntoowuabeokuta.org.ng/abeokuta/"
+      }
+    ],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/46",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/posts?categories=46"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 64,
+    "count": 67,
+    "description": "",
+    "link": "https://oruntoowuabeokuta.org.ng/sixthsense/",
+    "name": "SixthSense",
+    "slug": "sixthsense",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "aioseo_head": "\n\t\t<!-- All in One SEO 4.9.9 - aioseo.com -->\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"google-site-verification\" content=\"SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ\" />\n\t<link rel=\"canonical\" href=\"https://oruntoowuabeokuta.org.ng/sixthsense/\" />\n\t<meta name=\"generator\" content=\"All in One SEO (AIOSEO) 4.9.9\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/oruntoowuabeokuta.org.ng\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/sixthsense\\/#listItem\",\"name\":\"SixthSense\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/sixthsense\\/#listItem\",\"position\":2,\"name\":\"SixthSense\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"name\":\"Home\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#collectionpage\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/\",\"name\":\"SixthSense - Orunto Owu Abeokuta\",\"inLanguage\":\"en-GB\",\"isPartOf\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\"}},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"telephone\":\"+2348037171759\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-content\\/uploads\\/2025\\/02\\/ORUNTO-OWU-ABEOKUTA-TT.png\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\",\"width\":365,\"height\":60},\"image\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"inLanguage\":\"en-GB\",\"publisher\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO -->\n\n",
+    "aioseo_head_json": {
+      "title": "SixthSense - Orunto Owu Abeokuta",
+      "description": "",
+      "canonical_url": "https://oruntoowuabeokuta.org.ng/sixthsense/",
+      "robots": "max-image-preview:large",
+      "keywords": "",
+      "webmasterTools": {
+        "google-site-verification": "SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ",
+        "miscellaneous": ""
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://oruntoowuabeokuta.org.ng",
+                "nextItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng/sixthsense/#listItem",
+                  "name": "SixthSense"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng/sixthsense/#listItem",
+                "position": 2,
+                "name": "SixthSense",
+                "previousItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                  "name": "Home"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#collectionpage",
+            "url": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/",
+            "name": "SixthSense - Orunto Owu Abeokuta",
+            "inLanguage": "en-GB",
+            "isPartOf": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#website"
+            },
+            "breadcrumb": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist"
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://oruntoowuabeokuta.org.ng/#organization",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "telephone": "+2348037171759",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://oruntoowuabeokuta.org.ng/wp-content/uploads/2025/02/ORUNTO-OWU-ABEOKUTA-TT.png",
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo",
+              "width": 365,
+              "height": 60
+            },
+            "image": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://oruntoowuabeokuta.org.ng/#website",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "inLanguage": "en-GB",
+            "publisher": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#organization"
+            }
+          }
+        ]
+      }
+    },
+    "aioseo_breadcrumb": "<div class=\"aioseo-breadcrumbs\"><span class=\"aioseo-breadcrumb\">\n\t\t\t<a href=\"https://oruntoowuabeokuta.org.ng\" title=\"Home\">Home</a>\n\t\t</span><span class=\"aioseo-breadcrumb-separator\">»</span><span class=\"aioseo-breadcrumb\">\n\t\t\tSixthSense\n\t\t</span></div>",
+    "aioseo_breadcrumb_json": [
+      {
+        "label": "Home",
+        "link": "https://oruntoowuabeokuta.org.ng"
+      },
+      {
+        "label": "SixthSense",
+        "link": "https://oruntoowuabeokuta.org.ng/sixthsense/"
+      }
+    ],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/64",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/posts?categories=64"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 61,
+    "count": 60,
+    "description": "",
+    "link": "https://oruntoowuabeokuta.org.ng/orunto/",
+    "name": "Orunto",
+    "slug": "orunto",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "aioseo_head": "\n\t\t<!-- All in One SEO 4.9.9 - aioseo.com -->\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"google-site-verification\" content=\"SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ\" />\n\t<link rel=\"canonical\" href=\"https://oruntoowuabeokuta.org.ng/orunto/\" />\n\t<meta name=\"generator\" content=\"All in One SEO (AIOSEO) 4.9.9\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/oruntoowuabeokuta.org.ng\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/orunto\\/#listItem\",\"name\":\"Orunto\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/orunto\\/#listItem\",\"position\":2,\"name\":\"Orunto\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"name\":\"Home\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#collectionpage\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/\",\"name\":\"Orunto - Orunto Owu Abeokuta\",\"inLanguage\":\"en-GB\",\"isPartOf\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\"}},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"telephone\":\"+2348037171759\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-content\\/uploads\\/2025\\/02\\/ORUNTO-OWU-ABEOKUTA-TT.png\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\",\"width\":365,\"height\":60},\"image\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"inLanguage\":\"en-GB\",\"publisher\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO -->\n\n",
+    "aioseo_head_json": {
+      "title": "Orunto - Orunto Owu Abeokuta",
+      "description": "",
+      "canonical_url": "https://oruntoowuabeokuta.org.ng/orunto/",
+      "robots": "max-image-preview:large",
+      "keywords": "",
+      "webmasterTools": {
+        "google-site-verification": "SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ",
+        "miscellaneous": ""
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://oruntoowuabeokuta.org.ng",
+                "nextItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng/orunto/#listItem",
+                  "name": "Orunto"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng/orunto/#listItem",
+                "position": 2,
+                "name": "Orunto",
+                "previousItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                  "name": "Home"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#collectionpage",
+            "url": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/",
+            "name": "Orunto - Orunto Owu Abeokuta",
+            "inLanguage": "en-GB",
+            "isPartOf": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#website"
+            },
+            "breadcrumb": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist"
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://oruntoowuabeokuta.org.ng/#organization",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "telephone": "+2348037171759",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://oruntoowuabeokuta.org.ng/wp-content/uploads/2025/02/ORUNTO-OWU-ABEOKUTA-TT.png",
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo",
+              "width": 365,
+              "height": 60
+            },
+            "image": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://oruntoowuabeokuta.org.ng/#website",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "inLanguage": "en-GB",
+            "publisher": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#organization"
+            }
+          }
+        ]
+      }
+    },
+    "aioseo_breadcrumb": "<div class=\"aioseo-breadcrumbs\"><span class=\"aioseo-breadcrumb\">\n\t\t\t<a href=\"https://oruntoowuabeokuta.org.ng\" title=\"Home\">Home</a>\n\t\t</span><span class=\"aioseo-breadcrumb-separator\">»</span><span class=\"aioseo-breadcrumb\">\n\t\t\tOrunto\n\t\t</span></div>",
+    "aioseo_breadcrumb_json": [
+      {
+        "label": "Home",
+        "link": "https://oruntoowuabeokuta.org.ng"
+      },
+      {
+        "label": "Orunto",
+        "link": "https://oruntoowuabeokuta.org.ng/orunto/"
+      }
+    ],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/61",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/posts?categories=61"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 48,
+    "count": 52,
+    "description": "",
+    "link": "https://oruntoowuabeokuta.org.ng/owu/",
+    "name": "Owu",
+    "slug": "owu",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "aioseo_head": "\n\t\t<!-- All in One SEO 4.9.9 - aioseo.com -->\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"google-site-verification\" content=\"SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ\" />\n\t<link rel=\"canonical\" href=\"https://oruntoowuabeokuta.org.ng/owu/\" />\n\t<meta name=\"generator\" content=\"All in One SEO (AIOSEO) 4.9.9\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/oruntoowuabeokuta.org.ng\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/owu\\/#listItem\",\"name\":\"Owu\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/owu\\/#listItem\",\"position\":2,\"name\":\"Owu\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"name\":\"Home\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#collectionpage\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/\",\"name\":\"Owu - Orunto Owu Abeokuta\",\"inLanguage\":\"en-GB\",\"isPartOf\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\"}},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"telephone\":\"+2348037171759\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-content\\/uploads\\/2025\\/02\\/ORUNTO-OWU-ABEOKUTA-TT.png\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\",\"width\":365,\"height\":60},\"image\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"inLanguage\":\"en-GB\",\"publisher\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO -->\n\n",
+    "aioseo_head_json": {
+      "title": "Owu - Orunto Owu Abeokuta",
+      "description": "",
+      "canonical_url": "https://oruntoowuabeokuta.org.ng/owu/",
+      "robots": "max-image-preview:large",
+      "keywords": "",
+      "webmasterTools": {
+        "google-site-verification": "SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ",
+        "miscellaneous": ""
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://oruntoowuabeokuta.org.ng",
+                "nextItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng/owu/#listItem",
+                  "name": "Owu"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng/owu/#listItem",
+                "position": 2,
+                "name": "Owu",
+                "previousItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                  "name": "Home"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#collectionpage",
+            "url": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/",
+            "name": "Owu - Orunto Owu Abeokuta",
+            "inLanguage": "en-GB",
+            "isPartOf": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#website"
+            },
+            "breadcrumb": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist"
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://oruntoowuabeokuta.org.ng/#organization",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "telephone": "+2348037171759",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://oruntoowuabeokuta.org.ng/wp-content/uploads/2025/02/ORUNTO-OWU-ABEOKUTA-TT.png",
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo",
+              "width": 365,
+              "height": 60
+            },
+            "image": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://oruntoowuabeokuta.org.ng/#website",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "inLanguage": "en-GB",
+            "publisher": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#organization"
+            }
+          }
+        ]
+      }
+    },
+    "aioseo_breadcrumb": "<div class=\"aioseo-breadcrumbs\"><span class=\"aioseo-breadcrumb\">\n\t\t\t<a href=\"https://oruntoowuabeokuta.org.ng\" title=\"Home\">Home</a>\n\t\t</span><span class=\"aioseo-breadcrumb-separator\">»</span><span class=\"aioseo-breadcrumb\">\n\t\t\tOwu\n\t\t</span></div>",
+    "aioseo_breadcrumb_json": [
+      {
+        "label": "Home",
+        "link": "https://oruntoowuabeokuta.org.ng"
+      },
+      {
+        "label": "Owu",
+        "link": "https://oruntoowuabeokuta.org.ng/owu/"
+      }
+    ],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/48",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/posts?categories=48"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 56,
+    "count": 35,
+    "description": "",
+    "link": "https://oruntoowuabeokuta.org.ng/personalities/",
+    "name": "Personalities",
+    "slug": "personalities",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "aioseo_head": "\n\t\t<!-- All in One SEO 4.9.9 - aioseo.com -->\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"google-site-verification\" content=\"SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ\" />\n\t<link rel=\"canonical\" href=\"https://oruntoowuabeokuta.org.ng/personalities/\" />\n\t<meta name=\"generator\" content=\"All in One SEO (AIOSEO) 4.9.9\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/oruntoowuabeokuta.org.ng\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/personalities\\/#listItem\",\"name\":\"Personalities\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/personalities\\/#listItem\",\"position\":2,\"name\":\"Personalities\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"name\":\"Home\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#collectionpage\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/\",\"name\":\"Personalities - Orunto Owu Abeokuta\",\"inLanguage\":\"en-GB\",\"isPartOf\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\"}},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"telephone\":\"+2348037171759\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-content\\/uploads\\/2025\\/02\\/ORUNTO-OWU-ABEOKUTA-TT.png\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\",\"width\":365,\"height\":60},\"image\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"inLanguage\":\"en-GB\",\"publisher\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO -->\n\n",
+    "aioseo_head_json": {
+      "title": "Personalities - Orunto Owu Abeokuta",
+      "description": "",
+      "canonical_url": "https://oruntoowuabeokuta.org.ng/personalities/",
+      "robots": "max-image-preview:large",
+      "keywords": "",
+      "webmasterTools": {
+        "google-site-verification": "SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ",
+        "miscellaneous": ""
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://oruntoowuabeokuta.org.ng",
+                "nextItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng/personalities/#listItem",
+                  "name": "Personalities"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng/personalities/#listItem",
+                "position": 2,
+                "name": "Personalities",
+                "previousItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                  "name": "Home"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#collectionpage",
+            "url": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/",
+            "name": "Personalities - Orunto Owu Abeokuta",
+            "inLanguage": "en-GB",
+            "isPartOf": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#website"
+            },
+            "breadcrumb": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist"
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://oruntoowuabeokuta.org.ng/#organization",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "telephone": "+2348037171759",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://oruntoowuabeokuta.org.ng/wp-content/uploads/2025/02/ORUNTO-OWU-ABEOKUTA-TT.png",
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo",
+              "width": 365,
+              "height": 60
+            },
+            "image": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://oruntoowuabeokuta.org.ng/#website",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "inLanguage": "en-GB",
+            "publisher": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#organization"
+            }
+          }
+        ]
+      }
+    },
+    "aioseo_breadcrumb": "<div class=\"aioseo-breadcrumbs\"><span class=\"aioseo-breadcrumb\">\n\t\t\t<a href=\"https://oruntoowuabeokuta.org.ng\" title=\"Home\">Home</a>\n\t\t</span><span class=\"aioseo-breadcrumb-separator\">»</span><span class=\"aioseo-breadcrumb\">\n\t\t\tPersonalities\n\t\t</span></div>",
+    "aioseo_breadcrumb_json": [
+      {
+        "label": "Home",
+        "link": "https://oruntoowuabeokuta.org.ng"
+      },
+      {
+        "label": "Personalities",
+        "link": "https://oruntoowuabeokuta.org.ng/personalities/"
+      }
+    ],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/56",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/posts?categories=56"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 63,
+    "count": 30,
+    "description": "",
+    "link": "https://oruntoowuabeokuta.org.ng/entertainment/",
+    "name": "Entertainment",
+    "slug": "entertainment",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "aioseo_head": "\n\t\t<!-- All in One SEO 4.9.9 - aioseo.com -->\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"google-site-verification\" content=\"SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ\" />\n\t<link rel=\"canonical\" href=\"https://oruntoowuabeokuta.org.ng/entertainment/\" />\n\t<meta name=\"generator\" content=\"All in One SEO (AIOSEO) 4.9.9\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/oruntoowuabeokuta.org.ng\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/entertainment\\/#listItem\",\"name\":\"Entertainment\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/entertainment\\/#listItem\",\"position\":2,\"name\":\"Entertainment\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"name\":\"Home\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#collectionpage\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/\",\"name\":\"Entertainment - Orunto Owu Abeokuta\",\"inLanguage\":\"en-GB\",\"isPartOf\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\"}},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"telephone\":\"+2348037171759\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-content\\/uploads\\/2025\\/02\\/ORUNTO-OWU-ABEOKUTA-TT.png\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\",\"width\":365,\"height\":60},\"image\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"inLanguage\":\"en-GB\",\"publisher\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO -->\n\n",
+    "aioseo_head_json": {
+      "title": "Entertainment - Orunto Owu Abeokuta",
+      "description": "",
+      "canonical_url": "https://oruntoowuabeokuta.org.ng/entertainment/",
+      "robots": "max-image-preview:large",
+      "keywords": "",
+      "webmasterTools": {
+        "google-site-verification": "SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ",
+        "miscellaneous": ""
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://oruntoowuabeokuta.org.ng",
+                "nextItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng/entertainment/#listItem",
+                  "name": "Entertainment"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng/entertainment/#listItem",
+                "position": 2,
+                "name": "Entertainment",
+                "previousItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                  "name": "Home"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#collectionpage",
+            "url": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/",
+            "name": "Entertainment - Orunto Owu Abeokuta",
+            "inLanguage": "en-GB",
+            "isPartOf": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#website"
+            },
+            "breadcrumb": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist"
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://oruntoowuabeokuta.org.ng/#organization",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "telephone": "+2348037171759",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://oruntoowuabeokuta.org.ng/wp-content/uploads/2025/02/ORUNTO-OWU-ABEOKUTA-TT.png",
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo",
+              "width": 365,
+              "height": 60
+            },
+            "image": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://oruntoowuabeokuta.org.ng/#website",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "inLanguage": "en-GB",
+            "publisher": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#organization"
+            }
+          }
+        ]
+      }
+    },
+    "aioseo_breadcrumb": "<div class=\"aioseo-breadcrumbs\"><span class=\"aioseo-breadcrumb\">\n\t\t\t<a href=\"https://oruntoowuabeokuta.org.ng\" title=\"Home\">Home</a>\n\t\t</span><span class=\"aioseo-breadcrumb-separator\">»</span><span class=\"aioseo-breadcrumb\">\n\t\t\tEntertainment\n\t\t</span></div>",
+    "aioseo_breadcrumb_json": [
+      {
+        "label": "Home",
+        "link": "https://oruntoowuabeokuta.org.ng"
+      },
+      {
+        "label": "Entertainment",
+        "link": "https://oruntoowuabeokuta.org.ng/entertainment/"
+      }
+    ],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/63",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/posts?categories=63"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 51,
+    "count": 27,
+    "description": "",
+    "link": "https://oruntoowuabeokuta.org.ng/featured/",
+    "name": "Featured",
+    "slug": "featured",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "aioseo_head": "\n\t\t<!-- All in One SEO 4.9.9 - aioseo.com -->\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"google-site-verification\" content=\"SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ\" />\n\t<link rel=\"canonical\" href=\"https://oruntoowuabeokuta.org.ng/featured/\" />\n\t<meta name=\"generator\" content=\"All in One SEO (AIOSEO) 4.9.9\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/oruntoowuabeokuta.org.ng\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/featured\\/#listItem\",\"name\":\"Featured\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/featured\\/#listItem\",\"position\":2,\"name\":\"Featured\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"name\":\"Home\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#collectionpage\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/\",\"name\":\"Featured - Orunto Owu Abeokuta\",\"inLanguage\":\"en-GB\",\"isPartOf\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\"}},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"telephone\":\"+2348037171759\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-content\\/uploads\\/2025\\/02\\/ORUNTO-OWU-ABEOKUTA-TT.png\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\",\"width\":365,\"height\":60},\"image\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"inLanguage\":\"en-GB\",\"publisher\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO -->\n\n",
+    "aioseo_head_json": {
+      "title": "Featured - Orunto Owu Abeokuta",
+      "description": "",
+      "canonical_url": "https://oruntoowuabeokuta.org.ng/featured/",
+      "robots": "max-image-preview:large",
+      "keywords": "",
+      "webmasterTools": {
+        "google-site-verification": "SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ",
+        "miscellaneous": ""
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://oruntoowuabeokuta.org.ng",
+                "nextItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng/featured/#listItem",
+                  "name": "Featured"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng/featured/#listItem",
+                "position": 2,
+                "name": "Featured",
+                "previousItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                  "name": "Home"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#collectionpage",
+            "url": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/",
+            "name": "Featured - Orunto Owu Abeokuta",
+            "inLanguage": "en-GB",
+            "isPartOf": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#website"
+            },
+            "breadcrumb": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist"
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://oruntoowuabeokuta.org.ng/#organization",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "telephone": "+2348037171759",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://oruntoowuabeokuta.org.ng/wp-content/uploads/2025/02/ORUNTO-OWU-ABEOKUTA-TT.png",
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo",
+              "width": 365,
+              "height": 60
+            },
+            "image": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://oruntoowuabeokuta.org.ng/#website",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "inLanguage": "en-GB",
+            "publisher": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#organization"
+            }
+          }
+        ]
+      }
+    },
+    "aioseo_breadcrumb": "<div class=\"aioseo-breadcrumbs\"><span class=\"aioseo-breadcrumb\">\n\t\t\t<a href=\"https://oruntoowuabeokuta.org.ng\" title=\"Home\">Home</a>\n\t\t</span><span class=\"aioseo-breadcrumb-separator\">»</span><span class=\"aioseo-breadcrumb\">\n\t\t\tFeatured\n\t\t</span></div>",
+    "aioseo_breadcrumb_json": [
+      {
+        "label": "Home",
+        "link": "https://oruntoowuabeokuta.org.ng"
+      },
+      {
+        "label": "Featured",
+        "link": "https://oruntoowuabeokuta.org.ng/featured/"
+      }
+    ],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/51",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/posts?categories=51"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 52,
+    "count": 25,
+    "description": "",
+    "link": "https://oruntoowuabeokuta.org.ng/featured-orunto/",
+    "name": "Featured Orunto",
+    "slug": "featured-orunto",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "aioseo_head": "\n\t\t<!-- All in One SEO 4.9.9 - aioseo.com -->\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"google-site-verification\" content=\"SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ\" />\n\t<link rel=\"canonical\" href=\"https://oruntoowuabeokuta.org.ng/featured-orunto/\" />\n\t<meta name=\"generator\" content=\"All in One SEO (AIOSEO) 4.9.9\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/oruntoowuabeokuta.org.ng\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/featured-orunto\\/#listItem\",\"name\":\"Featured Orunto\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/featured-orunto\\/#listItem\",\"position\":2,\"name\":\"Featured Orunto\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"name\":\"Home\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#collectionpage\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/\",\"name\":\"Featured Orunto - Orunto Owu Abeokuta\",\"inLanguage\":\"en-GB\",\"isPartOf\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\"}},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"telephone\":\"+2348037171759\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-content\\/uploads\\/2025\\/02\\/ORUNTO-OWU-ABEOKUTA-TT.png\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\",\"width\":365,\"height\":60},\"image\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"inLanguage\":\"en-GB\",\"publisher\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO -->\n\n",
+    "aioseo_head_json": {
+      "title": "Featured Orunto - Orunto Owu Abeokuta",
+      "description": "",
+      "canonical_url": "https://oruntoowuabeokuta.org.ng/featured-orunto/",
+      "robots": "max-image-preview:large",
+      "keywords": "",
+      "webmasterTools": {
+        "google-site-verification": "SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ",
+        "miscellaneous": ""
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://oruntoowuabeokuta.org.ng",
+                "nextItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng/featured-orunto/#listItem",
+                  "name": "Featured Orunto"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng/featured-orunto/#listItem",
+                "position": 2,
+                "name": "Featured Orunto",
+                "previousItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                  "name": "Home"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#collectionpage",
+            "url": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/",
+            "name": "Featured Orunto - Orunto Owu Abeokuta",
+            "inLanguage": "en-GB",
+            "isPartOf": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#website"
+            },
+            "breadcrumb": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist"
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://oruntoowuabeokuta.org.ng/#organization",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "telephone": "+2348037171759",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://oruntoowuabeokuta.org.ng/wp-content/uploads/2025/02/ORUNTO-OWU-ABEOKUTA-TT.png",
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo",
+              "width": 365,
+              "height": 60
+            },
+            "image": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://oruntoowuabeokuta.org.ng/#website",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "inLanguage": "en-GB",
+            "publisher": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#organization"
+            }
+          }
+        ]
+      }
+    },
+    "aioseo_breadcrumb": "<div class=\"aioseo-breadcrumbs\"><span class=\"aioseo-breadcrumb\">\n\t\t\t<a href=\"https://oruntoowuabeokuta.org.ng\" title=\"Home\">Home</a>\n\t\t</span><span class=\"aioseo-breadcrumb-separator\">»</span><span class=\"aioseo-breadcrumb\">\n\t\t\tFeatured Orunto\n\t\t</span></div>",
+    "aioseo_breadcrumb_json": [
+      {
+        "label": "Home",
+        "link": "https://oruntoowuabeokuta.org.ng"
+      },
+      {
+        "label": "Featured Orunto",
+        "link": "https://oruntoowuabeokuta.org.ng/featured-orunto/"
+      }
+    ],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/52",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/posts?categories=52"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 69,
+    "count": 25,
+    "description": "",
+    "link": "https://oruntoowuabeokuta.org.ng/corporate-spotlight/",
+    "name": "Corporate Spotlight",
+    "slug": "corporate-spotlight",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "aioseo_head": "\n\t\t<!-- All in One SEO 4.9.9 - aioseo.com -->\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"google-site-verification\" content=\"SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ\" />\n\t<link rel=\"canonical\" href=\"https://oruntoowuabeokuta.org.ng/corporate-spotlight/\" />\n\t<meta name=\"generator\" content=\"All in One SEO (AIOSEO) 4.9.9\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/oruntoowuabeokuta.org.ng\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/corporate-spotlight\\/#listItem\",\"name\":\"Corporate Spotlight\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/corporate-spotlight\\/#listItem\",\"position\":2,\"name\":\"Corporate Spotlight\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"name\":\"Home\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#collectionpage\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/\",\"name\":\"Corporate Spotlight - Orunto Owu Abeokuta\",\"inLanguage\":\"en-GB\",\"isPartOf\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\"}},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"telephone\":\"+2348037171759\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-content\\/uploads\\/2025\\/02\\/ORUNTO-OWU-ABEOKUTA-TT.png\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\",\"width\":365,\"height\":60},\"image\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"inLanguage\":\"en-GB\",\"publisher\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO -->\n\n",
+    "aioseo_head_json": {
+      "title": "Corporate Spotlight - Orunto Owu Abeokuta",
+      "description": "",
+      "canonical_url": "https://oruntoowuabeokuta.org.ng/corporate-spotlight/",
+      "robots": "max-image-preview:large",
+      "keywords": "",
+      "webmasterTools": {
+        "google-site-verification": "SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ",
+        "miscellaneous": ""
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://oruntoowuabeokuta.org.ng",
+                "nextItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng/corporate-spotlight/#listItem",
+                  "name": "Corporate Spotlight"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng/corporate-spotlight/#listItem",
+                "position": 2,
+                "name": "Corporate Spotlight",
+                "previousItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                  "name": "Home"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#collectionpage",
+            "url": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/",
+            "name": "Corporate Spotlight - Orunto Owu Abeokuta",
+            "inLanguage": "en-GB",
+            "isPartOf": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#website"
+            },
+            "breadcrumb": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist"
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://oruntoowuabeokuta.org.ng/#organization",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "telephone": "+2348037171759",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://oruntoowuabeokuta.org.ng/wp-content/uploads/2025/02/ORUNTO-OWU-ABEOKUTA-TT.png",
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo",
+              "width": 365,
+              "height": 60
+            },
+            "image": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://oruntoowuabeokuta.org.ng/#website",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "inLanguage": "en-GB",
+            "publisher": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#organization"
+            }
+          }
+        ]
+      }
+    },
+    "aioseo_breadcrumb": "<div class=\"aioseo-breadcrumbs\"><span class=\"aioseo-breadcrumb\">\n\t\t\t<a href=\"https://oruntoowuabeokuta.org.ng\" title=\"Home\">Home</a>\n\t\t</span><span class=\"aioseo-breadcrumb-separator\">»</span><span class=\"aioseo-breadcrumb\">\n\t\t\tCorporate Spotlight\n\t\t</span></div>",
+    "aioseo_breadcrumb_json": [
+      {
+        "label": "Home",
+        "link": "https://oruntoowuabeokuta.org.ng"
+      },
+      {
+        "label": "Corporate Spotlight",
+        "link": "https://oruntoowuabeokuta.org.ng/corporate-spotlight/"
+      }
+    ],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/69",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/posts?categories=69"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 55,
+    "count": 23,
+    "description": "",
+    "link": "https://oruntoowuabeokuta.org.ng/publication/",
+    "name": "Publication",
+    "slug": "publication",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "aioseo_head": "\n\t\t<!-- All in One SEO 4.9.9 - aioseo.com -->\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"google-site-verification\" content=\"SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ\" />\n\t<link rel=\"canonical\" href=\"https://oruntoowuabeokuta.org.ng/publication/\" />\n\t<meta name=\"generator\" content=\"All in One SEO (AIOSEO) 4.9.9\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/oruntoowuabeokuta.org.ng\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/publication\\/#listItem\",\"name\":\"Publication\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/publication\\/#listItem\",\"position\":2,\"name\":\"Publication\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"name\":\"Home\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#collectionpage\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/\",\"name\":\"Publication - Orunto Owu Abeokuta\",\"inLanguage\":\"en-GB\",\"isPartOf\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\"}},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"telephone\":\"+2348037171759\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-content\\/uploads\\/2025\\/02\\/ORUNTO-OWU-ABEOKUTA-TT.png\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\",\"width\":365,\"height\":60},\"image\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"inLanguage\":\"en-GB\",\"publisher\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO -->\n\n",
+    "aioseo_head_json": {
+      "title": "Publication - Orunto Owu Abeokuta",
+      "description": "",
+      "canonical_url": "https://oruntoowuabeokuta.org.ng/publication/",
+      "robots": "max-image-preview:large",
+      "keywords": "",
+      "webmasterTools": {
+        "google-site-verification": "SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ",
+        "miscellaneous": ""
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://oruntoowuabeokuta.org.ng",
+                "nextItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng/publication/#listItem",
+                  "name": "Publication"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng/publication/#listItem",
+                "position": 2,
+                "name": "Publication",
+                "previousItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                  "name": "Home"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#collectionpage",
+            "url": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/",
+            "name": "Publication - Orunto Owu Abeokuta",
+            "inLanguage": "en-GB",
+            "isPartOf": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#website"
+            },
+            "breadcrumb": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist"
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://oruntoowuabeokuta.org.ng/#organization",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "telephone": "+2348037171759",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://oruntoowuabeokuta.org.ng/wp-content/uploads/2025/02/ORUNTO-OWU-ABEOKUTA-TT.png",
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo",
+              "width": 365,
+              "height": 60
+            },
+            "image": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://oruntoowuabeokuta.org.ng/#website",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "inLanguage": "en-GB",
+            "publisher": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#organization"
+            }
+          }
+        ]
+      }
+    },
+    "aioseo_breadcrumb": "<div class=\"aioseo-breadcrumbs\"><span class=\"aioseo-breadcrumb\">\n\t\t\t<a href=\"https://oruntoowuabeokuta.org.ng\" title=\"Home\">Home</a>\n\t\t</span><span class=\"aioseo-breadcrumb-separator\">»</span><span class=\"aioseo-breadcrumb\">\n\t\t\tPublication\n\t\t</span></div>",
+    "aioseo_breadcrumb_json": [
+      {
+        "label": "Home",
+        "link": "https://oruntoowuabeokuta.org.ng"
+      },
+      {
+        "label": "Publication",
+        "link": "https://oruntoowuabeokuta.org.ng/publication/"
+      }
+    ],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/55",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/posts?categories=55"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 68,
+    "count": 18,
+    "description": "",
+    "link": "https://oruntoowuabeokuta.org.ng/trending-news/",
+    "name": "Trending News",
+    "slug": "trending-news",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "aioseo_head": "\n\t\t<!-- All in One SEO 4.9.9 - aioseo.com -->\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"google-site-verification\" content=\"SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ\" />\n\t<link rel=\"canonical\" href=\"https://oruntoowuabeokuta.org.ng/trending-news/\" />\n\t<meta name=\"generator\" content=\"All in One SEO (AIOSEO) 4.9.9\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/oruntoowuabeokuta.org.ng\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/trending-news\\/#listItem\",\"name\":\"Trending News\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/trending-news\\/#listItem\",\"position\":2,\"name\":\"Trending News\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"name\":\"Home\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#collectionpage\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/\",\"name\":\"Trending News - Orunto Owu Abeokuta\",\"inLanguage\":\"en-GB\",\"isPartOf\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\"}},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"telephone\":\"+2348037171759\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-content\\/uploads\\/2025\\/02\\/ORUNTO-OWU-ABEOKUTA-TT.png\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\",\"width\":365,\"height\":60},\"image\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"inLanguage\":\"en-GB\",\"publisher\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO -->\n\n",
+    "aioseo_head_json": {
+      "title": "Trending News - Orunto Owu Abeokuta",
+      "description": "",
+      "canonical_url": "https://oruntoowuabeokuta.org.ng/trending-news/",
+      "robots": "max-image-preview:large",
+      "keywords": "",
+      "webmasterTools": {
+        "google-site-verification": "SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ",
+        "miscellaneous": ""
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://oruntoowuabeokuta.org.ng",
+                "nextItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng/trending-news/#listItem",
+                  "name": "Trending News"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng/trending-news/#listItem",
+                "position": 2,
+                "name": "Trending News",
+                "previousItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                  "name": "Home"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#collectionpage",
+            "url": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/",
+            "name": "Trending News - Orunto Owu Abeokuta",
+            "inLanguage": "en-GB",
+            "isPartOf": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#website"
+            },
+            "breadcrumb": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist"
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://oruntoowuabeokuta.org.ng/#organization",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "telephone": "+2348037171759",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://oruntoowuabeokuta.org.ng/wp-content/uploads/2025/02/ORUNTO-OWU-ABEOKUTA-TT.png",
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo",
+              "width": 365,
+              "height": 60
+            },
+            "image": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://oruntoowuabeokuta.org.ng/#website",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "inLanguage": "en-GB",
+            "publisher": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#organization"
+            }
+          }
+        ]
+      }
+    },
+    "aioseo_breadcrumb": "<div class=\"aioseo-breadcrumbs\"><span class=\"aioseo-breadcrumb\">\n\t\t\t<a href=\"https://oruntoowuabeokuta.org.ng\" title=\"Home\">Home</a>\n\t\t</span><span class=\"aioseo-breadcrumb-separator\">»</span><span class=\"aioseo-breadcrumb\">\n\t\t\tTrending News\n\t\t</span></div>",
+    "aioseo_breadcrumb_json": [
+      {
+        "label": "Home",
+        "link": "https://oruntoowuabeokuta.org.ng"
+      },
+      {
+        "label": "Trending News",
+        "link": "https://oruntoowuabeokuta.org.ng/trending-news/"
+      }
+    ],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/68",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/posts?categories=68"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 156,
+    "count": 11,
+    "description": "",
+    "link": "https://oruntoowuabeokuta.org.ng/owu-people/",
+    "name": "Owu People",
+    "slug": "owu-people",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "aioseo_head": "\n\t\t<!-- All in One SEO 4.9.9 - aioseo.com -->\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"google-site-verification\" content=\"SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ\" />\n\t<link rel=\"canonical\" href=\"https://oruntoowuabeokuta.org.ng/owu-people/\" />\n\t<meta name=\"generator\" content=\"All in One SEO (AIOSEO) 4.9.9\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/oruntoowuabeokuta.org.ng\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/owu-people\\/#listItem\",\"name\":\"Owu People\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/owu-people\\/#listItem\",\"position\":2,\"name\":\"Owu People\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"name\":\"Home\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#collectionpage\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/\",\"name\":\"Owu People - Orunto Owu Abeokuta\",\"inLanguage\":\"en-GB\",\"isPartOf\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\"}},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"telephone\":\"+2348037171759\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-content\\/uploads\\/2025\\/02\\/ORUNTO-OWU-ABEOKUTA-TT.png\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\",\"width\":365,\"height\":60},\"image\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"inLanguage\":\"en-GB\",\"publisher\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO -->\n\n",
+    "aioseo_head_json": {
+      "title": "Owu People - Orunto Owu Abeokuta",
+      "description": "",
+      "canonical_url": "https://oruntoowuabeokuta.org.ng/owu-people/",
+      "robots": "max-image-preview:large",
+      "keywords": "",
+      "webmasterTools": {
+        "google-site-verification": "SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ",
+        "miscellaneous": ""
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://oruntoowuabeokuta.org.ng",
+                "nextItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng/owu-people/#listItem",
+                  "name": "Owu People"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng/owu-people/#listItem",
+                "position": 2,
+                "name": "Owu People",
+                "previousItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                  "name": "Home"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#collectionpage",
+            "url": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/",
+            "name": "Owu People - Orunto Owu Abeokuta",
+            "inLanguage": "en-GB",
+            "isPartOf": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#website"
+            },
+            "breadcrumb": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist"
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://oruntoowuabeokuta.org.ng/#organization",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "telephone": "+2348037171759",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://oruntoowuabeokuta.org.ng/wp-content/uploads/2025/02/ORUNTO-OWU-ABEOKUTA-TT.png",
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo",
+              "width": 365,
+              "height": 60
+            },
+            "image": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://oruntoowuabeokuta.org.ng/#website",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "inLanguage": "en-GB",
+            "publisher": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#organization"
+            }
+          }
+        ]
+      }
+    },
+    "aioseo_breadcrumb": "<div class=\"aioseo-breadcrumbs\"><span class=\"aioseo-breadcrumb\">\n\t\t\t<a href=\"https://oruntoowuabeokuta.org.ng\" title=\"Home\">Home</a>\n\t\t</span><span class=\"aioseo-breadcrumb-separator\">»</span><span class=\"aioseo-breadcrumb\">\n\t\t\tOwu People\n\t\t</span></div>",
+    "aioseo_breadcrumb_json": [
+      {
+        "label": "Home",
+        "link": "https://oruntoowuabeokuta.org.ng"
+      },
+      {
+        "label": "Owu People",
+        "link": "https://oruntoowuabeokuta.org.ng/owu-people/"
+      }
+    ],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/156",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/posts?categories=156"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 53,
+    "count": 7,
+    "description": "",
+    "link": "https://oruntoowuabeokuta.org.ng/featured-abeokuta/",
+    "name": "Featured Abeokuta",
+    "slug": "featured-abeokuta",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "aioseo_head": "\n\t\t<!-- All in One SEO 4.9.9 - aioseo.com -->\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"google-site-verification\" content=\"SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ\" />\n\t<link rel=\"canonical\" href=\"https://oruntoowuabeokuta.org.ng/featured-abeokuta/\" />\n\t<meta name=\"generator\" content=\"All in One SEO (AIOSEO) 4.9.9\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/oruntoowuabeokuta.org.ng\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/featured-abeokuta\\/#listItem\",\"name\":\"Featured Abeokuta\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/featured-abeokuta\\/#listItem\",\"position\":2,\"name\":\"Featured Abeokuta\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"name\":\"Home\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#collectionpage\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/\",\"name\":\"Featured Abeokuta - Orunto Owu Abeokuta\",\"inLanguage\":\"en-GB\",\"isPartOf\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\"}},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"telephone\":\"+2348037171759\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-content\\/uploads\\/2025\\/02\\/ORUNTO-OWU-ABEOKUTA-TT.png\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\",\"width\":365,\"height\":60},\"image\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"inLanguage\":\"en-GB\",\"publisher\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO -->\n\n",
+    "aioseo_head_json": {
+      "title": "Featured Abeokuta - Orunto Owu Abeokuta",
+      "description": "",
+      "canonical_url": "https://oruntoowuabeokuta.org.ng/featured-abeokuta/",
+      "robots": "max-image-preview:large",
+      "keywords": "",
+      "webmasterTools": {
+        "google-site-verification": "SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ",
+        "miscellaneous": ""
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://oruntoowuabeokuta.org.ng",
+                "nextItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng/featured-abeokuta/#listItem",
+                  "name": "Featured Abeokuta"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng/featured-abeokuta/#listItem",
+                "position": 2,
+                "name": "Featured Abeokuta",
+                "previousItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                  "name": "Home"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#collectionpage",
+            "url": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/",
+            "name": "Featured Abeokuta - Orunto Owu Abeokuta",
+            "inLanguage": "en-GB",
+            "isPartOf": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#website"
+            },
+            "breadcrumb": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist"
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://oruntoowuabeokuta.org.ng/#organization",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "telephone": "+2348037171759",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://oruntoowuabeokuta.org.ng/wp-content/uploads/2025/02/ORUNTO-OWU-ABEOKUTA-TT.png",
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo",
+              "width": 365,
+              "height": 60
+            },
+            "image": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://oruntoowuabeokuta.org.ng/#website",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "inLanguage": "en-GB",
+            "publisher": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#organization"
+            }
+          }
+        ]
+      }
+    },
+    "aioseo_breadcrumb": "<div class=\"aioseo-breadcrumbs\"><span class=\"aioseo-breadcrumb\">\n\t\t\t<a href=\"https://oruntoowuabeokuta.org.ng\" title=\"Home\">Home</a>\n\t\t</span><span class=\"aioseo-breadcrumb-separator\">»</span><span class=\"aioseo-breadcrumb\">\n\t\t\tFeatured Abeokuta\n\t\t</span></div>",
+    "aioseo_breadcrumb_json": [
+      {
+        "label": "Home",
+        "link": "https://oruntoowuabeokuta.org.ng"
+      },
+      {
+        "label": "Featured Abeokuta",
+        "link": "https://oruntoowuabeokuta.org.ng/featured-abeokuta/"
+      }
+    ],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/53",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/posts?categories=53"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 54,
+    "count": 7,
+    "description": "",
+    "link": "https://oruntoowuabeokuta.org.ng/featured-owu/",
+    "name": "Featured Owu",
+    "slug": "featured-owu",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "aioseo_head": "\n\t\t<!-- All in One SEO 4.9.9 - aioseo.com -->\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"google-site-verification\" content=\"SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ\" />\n\t<link rel=\"canonical\" href=\"https://oruntoowuabeokuta.org.ng/featured-owu/\" />\n\t<meta name=\"generator\" content=\"All in One SEO (AIOSEO) 4.9.9\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/oruntoowuabeokuta.org.ng\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/featured-owu\\/#listItem\",\"name\":\"Featured Owu\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/featured-owu\\/#listItem\",\"position\":2,\"name\":\"Featured Owu\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"name\":\"Home\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#collectionpage\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/\",\"name\":\"Featured Owu - Orunto Owu Abeokuta\",\"inLanguage\":\"en-GB\",\"isPartOf\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\"}},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"telephone\":\"+2348037171759\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-content\\/uploads\\/2025\\/02\\/ORUNTO-OWU-ABEOKUTA-TT.png\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\",\"width\":365,\"height\":60},\"image\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"inLanguage\":\"en-GB\",\"publisher\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO -->\n\n",
+    "aioseo_head_json": {
+      "title": "Featured Owu - Orunto Owu Abeokuta",
+      "description": "",
+      "canonical_url": "https://oruntoowuabeokuta.org.ng/featured-owu/",
+      "robots": "max-image-preview:large",
+      "keywords": "",
+      "webmasterTools": {
+        "google-site-verification": "SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ",
+        "miscellaneous": ""
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://oruntoowuabeokuta.org.ng",
+                "nextItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng/featured-owu/#listItem",
+                  "name": "Featured Owu"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng/featured-owu/#listItem",
+                "position": 2,
+                "name": "Featured Owu",
+                "previousItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                  "name": "Home"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#collectionpage",
+            "url": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/",
+            "name": "Featured Owu - Orunto Owu Abeokuta",
+            "inLanguage": "en-GB",
+            "isPartOf": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#website"
+            },
+            "breadcrumb": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist"
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://oruntoowuabeokuta.org.ng/#organization",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "telephone": "+2348037171759",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://oruntoowuabeokuta.org.ng/wp-content/uploads/2025/02/ORUNTO-OWU-ABEOKUTA-TT.png",
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo",
+              "width": 365,
+              "height": 60
+            },
+            "image": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://oruntoowuabeokuta.org.ng/#website",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "inLanguage": "en-GB",
+            "publisher": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#organization"
+            }
+          }
+        ]
+      }
+    },
+    "aioseo_breadcrumb": "<div class=\"aioseo-breadcrumbs\"><span class=\"aioseo-breadcrumb\">\n\t\t\t<a href=\"https://oruntoowuabeokuta.org.ng\" title=\"Home\">Home</a>\n\t\t</span><span class=\"aioseo-breadcrumb-separator\">»</span><span class=\"aioseo-breadcrumb\">\n\t\t\tFeatured Owu\n\t\t</span></div>",
+    "aioseo_breadcrumb_json": [
+      {
+        "label": "Home",
+        "link": "https://oruntoowuabeokuta.org.ng"
+      },
+      {
+        "label": "Featured Owu",
+        "link": "https://oruntoowuabeokuta.org.ng/featured-owu/"
+      }
+    ],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/54",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/posts?categories=54"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1,
+    "count": 6,
+    "description": "",
+    "link": "https://oruntoowuabeokuta.org.ng/uncategorized/",
+    "name": "Uncategorized",
+    "slug": "uncategorized",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "aioseo_head": "\n\t\t<!-- All in One SEO 4.9.9 - aioseo.com -->\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"google-site-verification\" content=\"SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ\" />\n\t<link rel=\"canonical\" href=\"https://oruntoowuabeokuta.org.ng/uncategorized/\" />\n\t<meta name=\"generator\" content=\"All in One SEO (AIOSEO) 4.9.9\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/oruntoowuabeokuta.org.ng\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/uncategorized\\/#listItem\",\"name\":\"Uncategorized\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/uncategorized\\/#listItem\",\"position\":2,\"name\":\"Uncategorized\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"name\":\"Home\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#collectionpage\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/\",\"name\":\"Uncategorized - Orunto Owu Abeokuta\",\"inLanguage\":\"en-GB\",\"isPartOf\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\"}},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"telephone\":\"+2348037171759\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-content\\/uploads\\/2025\\/02\\/ORUNTO-OWU-ABEOKUTA-TT.png\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\",\"width\":365,\"height\":60},\"image\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"inLanguage\":\"en-GB\",\"publisher\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO -->\n\n",
+    "aioseo_head_json": {
+      "title": "Uncategorized - Orunto Owu Abeokuta",
+      "description": "",
+      "canonical_url": "https://oruntoowuabeokuta.org.ng/uncategorized/",
+      "robots": "max-image-preview:large",
+      "keywords": "",
+      "webmasterTools": {
+        "google-site-verification": "SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ",
+        "miscellaneous": ""
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://oruntoowuabeokuta.org.ng",
+                "nextItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng/uncategorized/#listItem",
+                  "name": "Uncategorized"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng/uncategorized/#listItem",
+                "position": 2,
+                "name": "Uncategorized",
+                "previousItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                  "name": "Home"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#collectionpage",
+            "url": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/",
+            "name": "Uncategorized - Orunto Owu Abeokuta",
+            "inLanguage": "en-GB",
+            "isPartOf": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#website"
+            },
+            "breadcrumb": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist"
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://oruntoowuabeokuta.org.ng/#organization",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "telephone": "+2348037171759",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://oruntoowuabeokuta.org.ng/wp-content/uploads/2025/02/ORUNTO-OWU-ABEOKUTA-TT.png",
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo",
+              "width": 365,
+              "height": 60
+            },
+            "image": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://oruntoowuabeokuta.org.ng/#website",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "inLanguage": "en-GB",
+            "publisher": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#organization"
+            }
+          }
+        ]
+      }
+    },
+    "aioseo_breadcrumb": "<div class=\"aioseo-breadcrumbs\"><span class=\"aioseo-breadcrumb\">\n\t\t\t<a href=\"https://oruntoowuabeokuta.org.ng\" title=\"Home\">Home</a>\n\t\t</span><span class=\"aioseo-breadcrumb-separator\">»</span><span class=\"aioseo-breadcrumb\">\n\t\t\tUncategorized\n\t\t</span></div>",
+    "aioseo_breadcrumb_json": [
+      {
+        "label": "Home",
+        "link": "https://oruntoowuabeokuta.org.ng"
+      },
+      {
+        "label": "Uncategorized",
+        "link": "https://oruntoowuabeokuta.org.ng/uncategorized/"
+      }
+    ],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/1",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/posts?categories=1"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 478,
+    "count": 5,
+    "description": "",
+    "link": "https://oruntoowuabeokuta.org.ng/ogun/",
+    "name": "Ogun",
+    "slug": "ogun",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "aioseo_head": "\n\t\t<!-- All in One SEO 4.9.9 - aioseo.com -->\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"google-site-verification\" content=\"SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ\" />\n\t<link rel=\"canonical\" href=\"https://oruntoowuabeokuta.org.ng/ogun/\" />\n\t<meta name=\"generator\" content=\"All in One SEO (AIOSEO) 4.9.9\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/oruntoowuabeokuta.org.ng\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/ogun\\/#listItem\",\"name\":\"Ogun\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/ogun\\/#listItem\",\"position\":2,\"name\":\"Ogun\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"name\":\"Home\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#collectionpage\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/\",\"name\":\"Ogun - Orunto Owu Abeokuta\",\"inLanguage\":\"en-GB\",\"isPartOf\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\"}},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"telephone\":\"+2348037171759\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-content\\/uploads\\/2025\\/02\\/ORUNTO-OWU-ABEOKUTA-TT.png\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\",\"width\":365,\"height\":60},\"image\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"inLanguage\":\"en-GB\",\"publisher\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO -->\n\n",
+    "aioseo_head_json": {
+      "title": "Ogun - Orunto Owu Abeokuta",
+      "description": "",
+      "canonical_url": "https://oruntoowuabeokuta.org.ng/ogun/",
+      "robots": "max-image-preview:large",
+      "keywords": "",
+      "webmasterTools": {
+        "google-site-verification": "SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ",
+        "miscellaneous": ""
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://oruntoowuabeokuta.org.ng",
+                "nextItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng/ogun/#listItem",
+                  "name": "Ogun"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng/ogun/#listItem",
+                "position": 2,
+                "name": "Ogun",
+                "previousItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                  "name": "Home"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#collectionpage",
+            "url": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/",
+            "name": "Ogun - Orunto Owu Abeokuta",
+            "inLanguage": "en-GB",
+            "isPartOf": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#website"
+            },
+            "breadcrumb": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist"
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://oruntoowuabeokuta.org.ng/#organization",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "telephone": "+2348037171759",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://oruntoowuabeokuta.org.ng/wp-content/uploads/2025/02/ORUNTO-OWU-ABEOKUTA-TT.png",
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo",
+              "width": 365,
+              "height": 60
+            },
+            "image": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://oruntoowuabeokuta.org.ng/#website",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "inLanguage": "en-GB",
+            "publisher": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#organization"
+            }
+          }
+        ]
+      }
+    },
+    "aioseo_breadcrumb": "<div class=\"aioseo-breadcrumbs\"><span class=\"aioseo-breadcrumb\">\n\t\t\t<a href=\"https://oruntoowuabeokuta.org.ng\" title=\"Home\">Home</a>\n\t\t</span><span class=\"aioseo-breadcrumb-separator\">»</span><span class=\"aioseo-breadcrumb\">\n\t\t\tOgun\n\t\t</span></div>",
+    "aioseo_breadcrumb_json": [
+      {
+        "label": "Home",
+        "link": "https://oruntoowuabeokuta.org.ng"
+      },
+      {
+        "label": "Ogun",
+        "link": "https://oruntoowuabeokuta.org.ng/ogun/"
+      }
+    ],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/478",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/posts?categories=478"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 59,
+    "count": 3,
+    "description": "",
+    "link": "https://oruntoowuabeokuta.org.ng/more-news/",
+    "name": "More News",
+    "slug": "more-news",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "aioseo_head": "\n\t\t<!-- All in One SEO 4.9.9 - aioseo.com -->\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"google-site-verification\" content=\"SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ\" />\n\t<link rel=\"canonical\" href=\"https://oruntoowuabeokuta.org.ng/more-news/\" />\n\t<meta name=\"generator\" content=\"All in One SEO (AIOSEO) 4.9.9\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/oruntoowuabeokuta.org.ng\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/more-news\\/#listItem\",\"name\":\"More News\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/more-news\\/#listItem\",\"position\":2,\"name\":\"More News\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"name\":\"Home\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#collectionpage\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/\",\"name\":\"More News - Orunto Owu Abeokuta\",\"inLanguage\":\"en-GB\",\"isPartOf\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\"}},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"telephone\":\"+2348037171759\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-content\\/uploads\\/2025\\/02\\/ORUNTO-OWU-ABEOKUTA-TT.png\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\",\"width\":365,\"height\":60},\"image\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"inLanguage\":\"en-GB\",\"publisher\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO -->\n\n",
+    "aioseo_head_json": {
+      "title": "More News - Orunto Owu Abeokuta",
+      "description": "",
+      "canonical_url": "https://oruntoowuabeokuta.org.ng/more-news/",
+      "robots": "max-image-preview:large",
+      "keywords": "",
+      "webmasterTools": {
+        "google-site-verification": "SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ",
+        "miscellaneous": ""
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://oruntoowuabeokuta.org.ng",
+                "nextItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng/more-news/#listItem",
+                  "name": "More News"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng/more-news/#listItem",
+                "position": 2,
+                "name": "More News",
+                "previousItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                  "name": "Home"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#collectionpage",
+            "url": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/",
+            "name": "More News - Orunto Owu Abeokuta",
+            "inLanguage": "en-GB",
+            "isPartOf": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#website"
+            },
+            "breadcrumb": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist"
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://oruntoowuabeokuta.org.ng/#organization",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "telephone": "+2348037171759",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://oruntoowuabeokuta.org.ng/wp-content/uploads/2025/02/ORUNTO-OWU-ABEOKUTA-TT.png",
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo",
+              "width": 365,
+              "height": 60
+            },
+            "image": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://oruntoowuabeokuta.org.ng/#website",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "inLanguage": "en-GB",
+            "publisher": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#organization"
+            }
+          }
+        ]
+      }
+    },
+    "aioseo_breadcrumb": "<div class=\"aioseo-breadcrumbs\"><span class=\"aioseo-breadcrumb\">\n\t\t\t<a href=\"https://oruntoowuabeokuta.org.ng\" title=\"Home\">Home</a>\n\t\t</span><span class=\"aioseo-breadcrumb-separator\">»</span><span class=\"aioseo-breadcrumb\">\n\t\t\tMore News\n\t\t</span></div>",
+    "aioseo_breadcrumb_json": [
+      {
+        "label": "Home",
+        "link": "https://oruntoowuabeokuta.org.ng"
+      },
+      {
+        "label": "More News",
+        "link": "https://oruntoowuabeokuta.org.ng/more-news/"
+      }
+    ],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/59",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/posts?categories=59"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 50,
+    "count": 3,
+    "description": "",
+    "link": "https://oruntoowuabeokuta.org.ng/exclusive/",
+    "name": "Exclusive",
+    "slug": "exclusive",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "aioseo_head": "\n\t\t<!-- All in One SEO 4.9.9 - aioseo.com -->\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"google-site-verification\" content=\"SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ\" />\n\t<link rel=\"canonical\" href=\"https://oruntoowuabeokuta.org.ng/exclusive/\" />\n\t<meta name=\"generator\" content=\"All in One SEO (AIOSEO) 4.9.9\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/oruntoowuabeokuta.org.ng\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/exclusive\\/#listItem\",\"name\":\"Exclusive\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/exclusive\\/#listItem\",\"position\":2,\"name\":\"Exclusive\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"name\":\"Home\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#collectionpage\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/\",\"name\":\"Exclusive - Orunto Owu Abeokuta\",\"inLanguage\":\"en-GB\",\"isPartOf\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\"}},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"telephone\":\"+2348037171759\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-content\\/uploads\\/2025\\/02\\/ORUNTO-OWU-ABEOKUTA-TT.png\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\",\"width\":365,\"height\":60},\"image\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"inLanguage\":\"en-GB\",\"publisher\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO -->\n\n",
+    "aioseo_head_json": {
+      "title": "Exclusive - Orunto Owu Abeokuta",
+      "description": "",
+      "canonical_url": "https://oruntoowuabeokuta.org.ng/exclusive/",
+      "robots": "max-image-preview:large",
+      "keywords": "",
+      "webmasterTools": {
+        "google-site-verification": "SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ",
+        "miscellaneous": ""
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://oruntoowuabeokuta.org.ng",
+                "nextItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng/exclusive/#listItem",
+                  "name": "Exclusive"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng/exclusive/#listItem",
+                "position": 2,
+                "name": "Exclusive",
+                "previousItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                  "name": "Home"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#collectionpage",
+            "url": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/",
+            "name": "Exclusive - Orunto Owu Abeokuta",
+            "inLanguage": "en-GB",
+            "isPartOf": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#website"
+            },
+            "breadcrumb": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist"
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://oruntoowuabeokuta.org.ng/#organization",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "telephone": "+2348037171759",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://oruntoowuabeokuta.org.ng/wp-content/uploads/2025/02/ORUNTO-OWU-ABEOKUTA-TT.png",
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo",
+              "width": 365,
+              "height": 60
+            },
+            "image": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://oruntoowuabeokuta.org.ng/#website",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "inLanguage": "en-GB",
+            "publisher": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#organization"
+            }
+          }
+        ]
+      }
+    },
+    "aioseo_breadcrumb": "<div class=\"aioseo-breadcrumbs\"><span class=\"aioseo-breadcrumb\">\n\t\t\t<a href=\"https://oruntoowuabeokuta.org.ng\" title=\"Home\">Home</a>\n\t\t</span><span class=\"aioseo-breadcrumb-separator\">»</span><span class=\"aioseo-breadcrumb\">\n\t\t\tExclusive\n\t\t</span></div>",
+    "aioseo_breadcrumb_json": [
+      {
+        "label": "Home",
+        "link": "https://oruntoowuabeokuta.org.ng"
+      },
+      {
+        "label": "Exclusive",
+        "link": "https://oruntoowuabeokuta.org.ng/exclusive/"
+      }
+    ],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/50",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/posts?categories=50"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 60,
+    "count": 1,
+    "description": "",
+    "link": "https://oruntoowuabeokuta.org.ng/news-roundup/",
+    "name": "News Roundup",
+    "slug": "news-roundup",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "aioseo_head": "\n\t\t<!-- All in One SEO 4.9.9 - aioseo.com -->\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"google-site-verification\" content=\"SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ\" />\n\t<link rel=\"canonical\" href=\"https://oruntoowuabeokuta.org.ng/news-roundup/\" />\n\t<meta name=\"generator\" content=\"All in One SEO (AIOSEO) 4.9.9\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/oruntoowuabeokuta.org.ng\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/news-roundup\\/#listItem\",\"name\":\"News Roundup\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/news-roundup\\/#listItem\",\"position\":2,\"name\":\"News Roundup\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"name\":\"Home\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#collectionpage\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/\",\"name\":\"News Roundup - Orunto Owu Abeokuta\",\"inLanguage\":\"en-GB\",\"isPartOf\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\"}},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"telephone\":\"+2348037171759\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-content\\/uploads\\/2025\\/02\\/ORUNTO-OWU-ABEOKUTA-TT.png\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\",\"width\":365,\"height\":60},\"image\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"inLanguage\":\"en-GB\",\"publisher\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO -->\n\n",
+    "aioseo_head_json": {
+      "title": "News Roundup - Orunto Owu Abeokuta",
+      "description": "",
+      "canonical_url": "https://oruntoowuabeokuta.org.ng/news-roundup/",
+      "robots": "max-image-preview:large",
+      "keywords": "",
+      "webmasterTools": {
+        "google-site-verification": "SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ",
+        "miscellaneous": ""
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://oruntoowuabeokuta.org.ng",
+                "nextItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng/news-roundup/#listItem",
+                  "name": "News Roundup"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng/news-roundup/#listItem",
+                "position": 2,
+                "name": "News Roundup",
+                "previousItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                  "name": "Home"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#collectionpage",
+            "url": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/",
+            "name": "News Roundup - Orunto Owu Abeokuta",
+            "inLanguage": "en-GB",
+            "isPartOf": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#website"
+            },
+            "breadcrumb": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist"
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://oruntoowuabeokuta.org.ng/#organization",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "telephone": "+2348037171759",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://oruntoowuabeokuta.org.ng/wp-content/uploads/2025/02/ORUNTO-OWU-ABEOKUTA-TT.png",
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo",
+              "width": 365,
+              "height": 60
+            },
+            "image": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://oruntoowuabeokuta.org.ng/#website",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "inLanguage": "en-GB",
+            "publisher": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#organization"
+            }
+          }
+        ]
+      }
+    },
+    "aioseo_breadcrumb": "<div class=\"aioseo-breadcrumbs\"><span class=\"aioseo-breadcrumb\">\n\t\t\t<a href=\"https://oruntoowuabeokuta.org.ng\" title=\"Home\">Home</a>\n\t\t</span><span class=\"aioseo-breadcrumb-separator\">»</span><span class=\"aioseo-breadcrumb\">\n\t\t\tNews Roundup\n\t\t</span></div>",
+    "aioseo_breadcrumb_json": [
+      {
+        "label": "Home",
+        "link": "https://oruntoowuabeokuta.org.ng"
+      },
+      {
+        "label": "News Roundup",
+        "link": "https://oruntoowuabeokuta.org.ng/news-roundup/"
+      }
+    ],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/60",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/posts?categories=60"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 463,
+    "count": 1,
+    "description": "",
+    "link": "https://oruntoowuabeokuta.org.ng/ibadan/",
+    "name": "ibadan",
+    "slug": "ibadan",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "aioseo_head": "\n\t\t<!-- All in One SEO 4.9.9 - aioseo.com -->\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"google-site-verification\" content=\"SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ\" />\n\t<link rel=\"canonical\" href=\"https://oruntoowuabeokuta.org.ng/ibadan/\" />\n\t<meta name=\"generator\" content=\"All in One SEO (AIOSEO) 4.9.9\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/oruntoowuabeokuta.org.ng\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/ibadan\\/#listItem\",\"name\":\"ibadan\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/ibadan\\/#listItem\",\"position\":2,\"name\":\"ibadan\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"name\":\"Home\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#collectionpage\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/\",\"name\":\"ibadan - Orunto Owu Abeokuta\",\"inLanguage\":\"en-GB\",\"isPartOf\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\"}},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"telephone\":\"+2348037171759\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-content\\/uploads\\/2025\\/02\\/ORUNTO-OWU-ABEOKUTA-TT.png\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\",\"width\":365,\"height\":60},\"image\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"inLanguage\":\"en-GB\",\"publisher\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO -->\n\n",
+    "aioseo_head_json": {
+      "title": "ibadan - Orunto Owu Abeokuta",
+      "description": "",
+      "canonical_url": "https://oruntoowuabeokuta.org.ng/ibadan/",
+      "robots": "max-image-preview:large",
+      "keywords": "",
+      "webmasterTools": {
+        "google-site-verification": "SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ",
+        "miscellaneous": ""
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://oruntoowuabeokuta.org.ng",
+                "nextItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng/ibadan/#listItem",
+                  "name": "ibadan"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng/ibadan/#listItem",
+                "position": 2,
+                "name": "ibadan",
+                "previousItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                  "name": "Home"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#collectionpage",
+            "url": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/",
+            "name": "ibadan - Orunto Owu Abeokuta",
+            "inLanguage": "en-GB",
+            "isPartOf": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#website"
+            },
+            "breadcrumb": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist"
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://oruntoowuabeokuta.org.ng/#organization",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "telephone": "+2348037171759",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://oruntoowuabeokuta.org.ng/wp-content/uploads/2025/02/ORUNTO-OWU-ABEOKUTA-TT.png",
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo",
+              "width": 365,
+              "height": 60
+            },
+            "image": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://oruntoowuabeokuta.org.ng/#website",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "inLanguage": "en-GB",
+            "publisher": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#organization"
+            }
+          }
+        ]
+      }
+    },
+    "aioseo_breadcrumb": "<div class=\"aioseo-breadcrumbs\"><span class=\"aioseo-breadcrumb\">\n\t\t\t<a href=\"https://oruntoowuabeokuta.org.ng\" title=\"Home\">Home</a>\n\t\t</span><span class=\"aioseo-breadcrumb-separator\">»</span><span class=\"aioseo-breadcrumb\">\n\t\t\tibadan\n\t\t</span></div>",
+    "aioseo_breadcrumb_json": [
+      {
+        "label": "Home",
+        "link": "https://oruntoowuabeokuta.org.ng"
+      },
+      {
+        "label": "ibadan",
+        "link": "https://oruntoowuabeokuta.org.ng/ibadan/"
+      }
+    ],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/463",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/posts?categories=463"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 464,
+    "count": 1,
+    "description": "",
+    "link": "https://oruntoowuabeokuta.org.ng/olubadan/",
+    "name": "Olubadan",
+    "slug": "olubadan",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "aioseo_head": "\n\t\t<!-- All in One SEO 4.9.9 - aioseo.com -->\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"google-site-verification\" content=\"SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ\" />\n\t<link rel=\"canonical\" href=\"https://oruntoowuabeokuta.org.ng/olubadan/\" />\n\t<meta name=\"generator\" content=\"All in One SEO (AIOSEO) 4.9.9\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/oruntoowuabeokuta.org.ng\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/olubadan\\/#listItem\",\"name\":\"Olubadan\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/olubadan\\/#listItem\",\"position\":2,\"name\":\"Olubadan\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng#listItem\",\"name\":\"Home\"}}]},{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#collectionpage\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/\",\"name\":\"Olubadan - Orunto Owu Abeokuta\",\"inLanguage\":\"en-GB\",\"isPartOf\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#breadcrumblist\"}},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"telephone\":\"+2348037171759\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-content\\/uploads\\/2025\\/02\\/ORUNTO-OWU-ABEOKUTA-TT.png\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\",\"width\":365,\"height\":60},\"image\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/wp-json\\/wp\\/v2\\/categories\\/#organizationLogo\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#website\",\"url\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/\",\"name\":\"Orunto Owu Abeokuta\",\"description\":\"Information Hub\",\"inLanguage\":\"en-GB\",\"publisher\":{\"@id\":\"https:\\/\\/oruntoowuabeokuta.org.ng\\/#organization\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO -->\n\n",
+    "aioseo_head_json": {
+      "title": "Olubadan - Orunto Owu Abeokuta",
+      "description": "",
+      "canonical_url": "https://oruntoowuabeokuta.org.ng/olubadan/",
+      "robots": "max-image-preview:large",
+      "keywords": "",
+      "webmasterTools": {
+        "google-site-verification": "SISNYFE1o6kaACXI0Vm82nXpL-uH2iFUvoARP0uqlSQ",
+        "miscellaneous": ""
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://oruntoowuabeokuta.org.ng",
+                "nextItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng/olubadan/#listItem",
+                  "name": "Olubadan"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "@id": "https://oruntoowuabeokuta.org.ng/olubadan/#listItem",
+                "position": 2,
+                "name": "Olubadan",
+                "previousItem": {
+                  "@type": "ListItem",
+                  "@id": "https://oruntoowuabeokuta.org.ng#listItem",
+                  "name": "Home"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#collectionpage",
+            "url": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/",
+            "name": "Olubadan - Orunto Owu Abeokuta",
+            "inLanguage": "en-GB",
+            "isPartOf": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#website"
+            },
+            "breadcrumb": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#breadcrumblist"
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://oruntoowuabeokuta.org.ng/#organization",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "telephone": "+2348037171759",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://oruntoowuabeokuta.org.ng/wp-content/uploads/2025/02/ORUNTO-OWU-ABEOKUTA-TT.png",
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo",
+              "width": 365,
+              "height": 60
+            },
+            "image": {
+              "@id": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/#organizationLogo"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://oruntoowuabeokuta.org.ng/#website",
+            "url": "https://oruntoowuabeokuta.org.ng/",
+            "name": "Orunto Owu Abeokuta",
+            "description": "Information Hub",
+            "inLanguage": "en-GB",
+            "publisher": {
+              "@id": "https://oruntoowuabeokuta.org.ng/#organization"
+            }
+          }
+        ]
+      }
+    },
+    "aioseo_breadcrumb": "<div class=\"aioseo-breadcrumbs\"><span class=\"aioseo-breadcrumb\">\n\t\t\t<a href=\"https://oruntoowuabeokuta.org.ng\" title=\"Home\">Home</a>\n\t\t</span><span class=\"aioseo-breadcrumb-separator\">»</span><span class=\"aioseo-breadcrumb\">\n\t\t\tOlubadan\n\t\t</span></div>",
+    "aioseo_breadcrumb_json": [
+      {
+        "label": "Home",
+        "link": "https://oruntoowuabeokuta.org.ng"
+      },
+      {
+        "label": "Olubadan",
+        "link": "https://oruntoowuabeokuta.org.ng/olubadan/"
+      }
+    ],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories/464",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://oruntoowuabeokuta.org.ng/wp-json/wp/v2/posts?categories=464"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]
