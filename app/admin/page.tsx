@@ -9,12 +9,15 @@ export default async function AdminDashboard() {
     { count: subscriberCount },
     { count: categoryCount },
     { count: commentCount },
+    { data: viewsData },
   ] = await Promise.all([
     supabase.from("articles").select("*", { count: "exact", head: true }),
-    supabase.from("subscribers").select("*", { count: "exact", head: true }).eq("is_active", true),
+    supabase.from("subscribers").select("*", { count: "exact", head: true }).eq("active", true),
     supabase.from("categories").select("*", { count: "exact", head: true }),
     supabase.from("comments").select("*", { count: "exact", head: true }),
+    supabase.from("articles").select("view_count"),
   ]);
+  const totalViews = (viewsData || []).reduce((s: number, r: any) => s + (r.view_count || 0), 0);
 
   // Recent articles
   const { data: recentArticles } = await supabase
@@ -31,6 +34,10 @@ export default async function AdminDashboard() {
         <div className="stat-card">
           <span className="stat-number">{articleCount ?? 0}</span>
           <span className="stat-label">Articles</span>
+        </div>
+        <div className="stat-card">
+          <span className="stat-number">{totalViews}</span>
+          <span className="stat-label">Total Reads</span>
         </div>
         <div className="stat-card">
           <span className="stat-number">{subscriberCount ?? 0}</span>

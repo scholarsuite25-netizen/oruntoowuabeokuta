@@ -97,6 +97,7 @@ export interface Article {
   og_description?: string;
   // Reading
   reading_time?: number;
+  view_count?: number;
   // Social
   social_title?: string;
   social_description?: string;

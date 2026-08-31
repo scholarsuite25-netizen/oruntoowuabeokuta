@@ -2,6 +2,7 @@ import Link from "next/link";
 import { getCategories, getPostsWithImages } from "@/lib/wp";
 import ArticleCard from "@/components/ArticleCard";
 import CategorySection from "@/components/CategorySection";
+import StatsBar from "@/components/StatsBar";
 
 function stripHtml(html?: string): string {
   if (!html) return "";
@@ -119,6 +120,8 @@ export default async function Home() {
           </div>
         </div>
       )}
+
+      <StatsBar />
 
       <div className="layout">
         <div>

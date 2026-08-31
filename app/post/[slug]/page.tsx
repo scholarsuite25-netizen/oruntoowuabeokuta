@@ -12,6 +12,9 @@ import { calculateReadingTime } from "@/lib/reading-time";
 import ArticleCard from "@/components/ArticleCard";
 import CommentsSection from "@/components/CommentsSection";
 import ShareButtons from "@/components/ShareButtons";
+import ViewTracker from "@/components/ViewTracker";
+import ViewCount from "@/components/ViewCount";
+import AudioReader from "@/components/AudioReader";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://oruntoowuabeokuta.org.ng";
 
@@ -139,13 +142,15 @@ export default async function PostPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <ViewTracker slug={post.slug} articleId={String(post.id)} />
       <div className="container">
         <article className="article">
           <span className="cat">{catNames.join(" · ")}</span>
           <h1>{post.title.rendered}</h1>
           <div className="meta">
-            {formatDate(post.date)} &middot; {readTime} min read
+            {formatDate(post.date)} &middot; {readTime} min read &middot; <ViewCount slug={post.slug} />
           </div>
+          <AudioReader text={stripHtml(post.content.rendered)} title={post.title.rendered} />
           {withImg.image && !hasFeaturedInContent && (
             <div className="article-featured">
               {/* eslint-disable-next-line @next/next/no-img-element */}

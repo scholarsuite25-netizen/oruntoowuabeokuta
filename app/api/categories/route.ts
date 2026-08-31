@@ -12,7 +12,10 @@ export async function GET(request: NextRequest) {
 
   let query = supabase
     .from("categories")
-    .select("*", { count: "exact" })
+    .select(`
+      *,
+      article_categories (article_id)
+    `, { count: "exact" })
     .order("sort_order", { ascending: true });
 
   if (search) {
@@ -30,9 +33,21 @@ export async function GET(request: NextRequest) {
     return NextResponse.json({ error: error.message }, { status: 500 });
   }
 
+  // Transform: add article_count to each category
+  const categoriesWithCount = (data || []).map((cat: any) => {
+    const articleCount = Array.isArray(cat.article_categories)
+      ? cat.article_categories.length
+      : 0;
+    const { article_categories, ...rest } = cat;
+    return {
+      ...rest,
+      article_count: articleCount,
+    };
+  });
+
   return NextResponse.json({
-    categories: data,
-    total: count || data?.length || 0,
+    categories: categoriesWithCount,
+    total: count || categoriesWithCount.length || 0,
     page,
     limit,
   });

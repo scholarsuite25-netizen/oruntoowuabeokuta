@@ -3,10 +3,11 @@
 import { useState, useEffect } from "react";
 
 interface Category {
-  id: number;
+  id: string;
   name: string;
   slug: string;
   description: string;
+  article_count?: number;
   created_at: string;
 }
 
@@ -60,14 +61,14 @@ export default function CategoriesPage() {
     fetchCategories();
   }
 
-  async function handleDelete(id: number) {
+  async function handleDelete(id: string) {
     if (!confirm("Delete this category?")) return;
     await fetch(`/api/categories/${id}`, { method: "DELETE" });
     fetchCategories();
   }
 
   function handleEdit(cat: Category) {
-    setEditingId(cat.id);
+    setEditingId(cat.id as any);
     setName(cat.name);
     setDescription(cat.description || "");
   }
@@ -140,6 +141,7 @@ export default function CategoriesPage() {
               <tr>
                 <th>Name</th>
                 <th>Slug</th>
+                <th>Articles</th>
                 <th>Description</th>
                 <th>Actions</th>
               </tr>
@@ -149,6 +151,7 @@ export default function CategoriesPage() {
                 <tr key={cat.id}>
                   <td><strong>{cat.name}</strong></td>
                   <td>{cat.slug}</td>
+                  <td><span className="badge badge-published">{cat.article_count ?? 0}</span></td>
                   <td>{cat.description || "-"}</td>
                   <td>
                     <div className="action-links">

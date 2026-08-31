@@ -55,8 +55,7 @@ CREATE TABLE IF NOT EXISTS articles (
   published_at TIMESTAMPTZ,
   scheduled_at TIMESTAMPTZ,
   reading_time INT,
-  allow_indexing BOOLEAN DEFAULT true
-  -- SEO fields
+  view_count INT DEFAULT 0,
   seo_title TEXT,
   seo_description TEXT,
   seo_keywords TEXT,
@@ -64,14 +63,19 @@ CREATE TABLE IF NOT EXISTS articles (
   og_image TEXT,
   og_title TEXT,
   og_description TEXT,
-  -- Social
   social_title TEXT,
   social_description TEXT,
-  -- Visibility
   allow_indexing BOOLEAN DEFAULT true,
   created_at TIMESTAMPTZ DEFAULT NOW(),
   updated_at TIMESTAMPTZ DEFAULT NOW()
 );
+
+-- Ensure view_count exists on existing installs
+DO $$ BEGIN
+  IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name='articles' AND column_name='view_count') THEN
+    ALTER TABLE articles ADD COLUMN view_count INT DEFAULT 0;
+  END IF;
+END $$;
 
 -- Tags
 CREATE TABLE IF NOT EXISTS tags (
@@ -186,6 +190,16 @@ CREATE TABLE IF NOT EXISTS audit_log (
   created_at TIMESTAMPTZ DEFAULT NOW()
 );
 
+-- Article views (zero-cost reader tracking, dedup by session)
+CREATE TABLE IF NOT EXISTS article_views (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  article_id UUID REFERENCES articles(id) ON DELETE CASCADE,
+  viewer_hash TEXT,
+  created_at TIMESTAMPTZ DEFAULT NOW()
+);
+CREATE INDEX IF NOT EXISTS idx_article_views_article ON article_views(article_id);
+CREATE INDEX IF NOT EXISTS idx_article_views_hash ON article_views(viewer_hash);
+
 -- Pages (CMS-managed static pages)
 CREATE TABLE IF NOT EXISTS pages (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
@@ -214,6 +228,7 @@ ALTER TABLE tags ENABLE ROW LEVEL SECURITY;
 ALTER TABLE site_settings ENABLE ROW LEVEL SECURITY;
 ALTER TABLE revisions ENABLE ROW LEVEL SECURITY;
 ALTER TABLE audit_log ENABLE ROW LEVEL SECURITY;
+ALTER TABLE article_views ENABLE ROW LEVEL SECURITY;
 ALTER TABLE pages ENABLE ROW LEVEL SECURITY;
 
 -- Profiles: public read, owner write
@@ -273,6 +288,13 @@ CREATE POLICY "Audit admin read" ON audit_log FOR SELECT USING (
   EXISTS (SELECT 1 FROM profiles WHERE id = auth.uid() AND role = 'superadmin')
 );
 CREATE POLICY "Audit auth insert" ON audit_log FOR INSERT WITH CHECK (auth.role() = 'authenticated');
+
+-- Article views: public insert/read, admin manage
+CREATE POLICY "Views public insert" ON article_views FOR INSERT WITH CHECK (true);
+CREATE POLICY "Views public read" ON article_views FOR SELECT USING (true);
+CREATE POLICY "Views admin manage" ON article_views FOR ALL USING (
+  EXISTS (SELECT 1 FROM profiles WHERE id = auth.uid() AND role IN ('superadmin','editor'))
+);
 
 -- Pages: public read published, admin manage
 CREATE POLICY "Pages public read" ON pages FOR SELECT USING (status = 'published');

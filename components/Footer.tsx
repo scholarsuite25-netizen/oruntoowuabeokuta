@@ -76,10 +76,10 @@ export default function Footer() {
                 the wider Yoruba world.
               </p>
             </div>
-            <div className="footer-legal">
-              <Link href="/page/about">Privacy Policy</Link>
-              <Link href="/page/about">Terms</Link>
-              <Link href="/page/about">Accessibility</Link>
+<div className="footer-legal">
+              <Link href="/about">Privacy Policy</Link>
+              <Link href="/about">Terms</Link>
+              <Link href="/about">Accessibility</Link>
             </div>
             <div className="footer-dwc">
               © {year} Orunto Owu Abeokuta.{" "}
