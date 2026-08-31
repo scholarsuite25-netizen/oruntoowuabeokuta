@@ -1,7 +1,37 @@
 import { createServerClient, type CookieOptions } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
 
+// Zero-cost in-memory rate limit (per edge instance, resets on cold start — sufficient for Student)
+const RATE_LIMITS: Record<string, { limit: number; windowMs: number }> = {
+  "/api/views": { limit: 30, windowMs: 60_000 },
+  "/api/comments": { limit: 10, windowMs: 60_000 },
+  "/api/join": { limit: 5, windowMs: 60_000 },
+  "/api/contact": { limit: 5, windowMs: 60_000 },
+  "/api/newsletter": { limit: 10, windowMs: 60_000 },
+};
+const hitMap = new Map<string, number[]>();
+function isRateLimited(pathname: string, ip: string): boolean {
+  const cfg = Object.entries(RATE_LIMITS).find(([k]) => pathname.startsWith(k))?.[1];
+  if (!cfg) return false;
+  const key = `${pathname}:${ip}`;
+  const now = Date.now();
+  const hits = (hitMap.get(key) || []).filter((t) => now - t < cfg.windowMs);
+  hits.push(now);
+  hitMap.set(key, hits);
+  // Prevent unbounded growth
+  if (hitMap.size > 5000) hitMap.clear();
+  return hits.length > cfg.limit;
+}
+
 export async function middleware(request: NextRequest) {
+  // Zero-cost early rate limit — no Supabase call if limited
+  const ipEarly = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || request.headers.get("x-real-ip") || "unknown";
+  if (isRateLimited(request.nextUrl.pathname, ipEarly)) {
+    return new NextResponse(JSON.stringify({ error: "Too many requests. Please try again shortly." }), {
+      status: 429,
+      headers: { "Content-Type": "application/json", "Retry-After": "60" },
+    });
+  }
   let response = NextResponse.next({ request: { headers: request.headers } });
 
   const supabase = createServerClient(
@@ -69,5 +99,5 @@ export async function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/admin/:path*", "/login", "/register"],
+  matcher: ["/admin/:path*", "/login", "/register", "/api/views/:path*", "/api/comments/:path*", "/api/join/:path*", "/api/contact/:path*", "/api/newsletter/:path*"],
 };
