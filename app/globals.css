@@ -1713,7 +1713,8 @@ img { max-width: 100%; display: block; }
 .chat-fab {
   position: fixed;
   bottom: 24px;
-  right: 24px;
+  left: 24px;
+  right: auto;
   width: 56px;
   height: 56px;
   border-radius: 50%;
@@ -1736,7 +1737,8 @@ img { max-width: 100%; display: block; }
 .chat-panel {
   position: fixed;
   bottom: 92px;
-  right: 24px;
+  left: 24px;
+  right: auto;
   width: 380px;
   max-width: calc(100vw - 48px);
   height: 520px;
