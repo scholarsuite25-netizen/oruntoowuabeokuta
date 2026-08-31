@@ -12,27 +12,34 @@ interface Category {
 
 export default function CategoriesPage() {
   const [categories, setCategories] = useState<Category[]>([]);
+  const [total, setTotal] = useState(0);
+  const [page, setPage] = useState(1);
+  const [search, setSearch] = useState("");
   const [name, setName] = useState("");
   const [description, setDescription] = useState("");
   const [editingId, setEditingId] = useState<number | null>(null);
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
+  const limit = 20;
 
   useEffect(() => {
     fetchCategories();
-  }, []);
+  }, [page]);
 
   async function fetchCategories() {
-    const res = await fetch("/api/categories");
+    setLoading(true);
+    const params = new URLSearchParams({ page: String(page), limit: String(limit) });
+    if (search) params.set("search", search);
+    const res = await fetch(`/api/categories?${params.toString()}`);
     const data = await res.json();
     setCategories(data.categories || []);
+    setTotal(data.total || 0);
     setLoading(false);
   }
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     setSaving(true);
-
     if (editingId) {
       await fetch(`/api/categories/${editingId}`, {
         method: "PUT",
@@ -46,7 +53,6 @@ export default function CategoriesPage() {
         body: JSON.stringify({ name, description }),
       });
     }
-
     setName("");
     setDescription("");
     setEditingId(null);
@@ -65,6 +71,8 @@ export default function CategoriesPage() {
     setName(cat.name);
     setDescription(cat.description || "");
   }
+
+  const totalPages = Math.ceil(total / limit);
 
   if (loading) return <div className="admin-content">Loading...</div>;
 
@@ -103,11 +111,7 @@ export default function CategoriesPage() {
               <button
                 type="button"
                 className="btn-secondary"
-                onClick={() => {
-                  setEditingId(null);
-                  setName("");
-                  setDescription("");
-                }}
+                onClick={() => { setEditingId(null); setName(""); setDescription(""); }}
               >
                 Cancel
               </button>
@@ -116,39 +120,54 @@ export default function CategoriesPage() {
         </div>
       </form>
 
+      <div className="admin-filters">
+        <div className="search-form">
+          <input
+            type="text"
+            placeholder="Search categories..."
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            onKeyDown={(e) => e.key === "Enter" && fetchCategories()}
+          />
+        </div>
+        <span className="admin-info">{total} categories</span>
+      </div>
+
       {categories.length > 0 ? (
-        <table className="admin-table">
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Slug</th>
-              <th>Description</th>
-              <th>Actions</th>
-            </tr>
-          </thead>
-          <tbody>
-            {categories.map((cat) => (
-              <tr key={cat.id}>
-                <td><strong>{cat.name}</strong></td>
-                <td>{cat.slug}</td>
-                <td>{cat.description || "-"}</td>
-                <td>
-                  <div className="action-links">
-                    <button onClick={() => handleEdit(cat)} className="link-btn">
-                      Edit
-                    </button>
-                    <button
-                      onClick={() => handleDelete(cat.id)}
-                      className="link-btn link-btn-danger"
-                    >
-                      Delete
-                    </button>
-                  </div>
-                </td>
+        <>
+          <table className="admin-table">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Slug</th>
+                <th>Description</th>
+                <th>Actions</th>
               </tr>
-            ))}
-          </tbody>
-        </table>
+            </thead>
+            <tbody>
+              {categories.map((cat) => (
+                <tr key={cat.id}>
+                  <td><strong>{cat.name}</strong></td>
+                  <td>{cat.slug}</td>
+                  <td>{cat.description || "-"}</td>
+                  <td>
+                    <div className="action-links">
+                      <button onClick={() => handleEdit(cat)} className="link-btn">Edit</button>
+                      <button onClick={() => handleDelete(cat.id)} className="link-btn link-btn-danger">Delete</button>
+                    </div>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+          {totalPages > 1 && (
+            <div className="pagination">
+              <button className="btn-secondary btn-sm" disabled={page <= 1} onClick={() => setPage(page - 1)}>Previous</button>
+              <span className="pagination-info">Page {page} of {totalPages}</span>
+              <button className="btn-secondary btn-sm" disabled={page >= totalPages} onClick={() => setPage(page + 1)}>Next</button>
+            </div>
+          )}
+        </>
       ) : (
         <div className="empty-state">No categories yet. Add one above.</div>
       )}

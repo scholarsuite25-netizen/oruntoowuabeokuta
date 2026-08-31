@@ -15,22 +15,11 @@ const NAV = [
   { label: "Settings", href: "/admin/settings" },
 ];
 
-export default async function AdminLayout({
+export default function AdminLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const supabase = createClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
-
-  const { data: profile } = await supabase
-    .from("profiles")
-    .select("full_name, role")
-    .eq("id", user?.id ?? "")
-    .single();
-
   return (
     <div className="admin-layout">
       <aside className="admin-sidebar">
@@ -50,13 +39,11 @@ export default async function AdminLayout({
 
         <div className="sidebar-footer">
           <div className="sidebar-user">
-            <span className="user-name">{profile?.full_name || user?.email}</span>
-            <span className="user-role">{profile?.role}</span>
+            <span className="user-name">Orunto Admin</span>
+            <span className="user-role">superadmin</span>
           </div>
           <LogoutButton />
-          <Link href="/" className="sidebar-link">
-            View Site
-          </Link>
+          <Link href="/" className="sidebar-link">View Site</Link>
         </div>
       </aside>
 

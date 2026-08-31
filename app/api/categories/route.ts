@@ -1,20 +1,41 @@
 import { createClient } from "@/lib/supabase";
 import { NextRequest, NextResponse } from "next/server";
 
-// GET /api/categories
-export async function GET() {
+// GET /api/categories?page=1&limit=20&search=xxx
+export async function GET(request: NextRequest) {
   const supabase = createClient();
+  const { searchParams } = new URL(request.url);
+  const page = parseInt(searchParams.get("page") || "1");
+  const limit = parseInt(searchParams.get("limit") || "20");
+  const search = searchParams.get("search") || "";
+  const offset = (page - 1) * limit;
 
-  const { data, error } = await supabase
+  let query = supabase
     .from("categories")
-    .select("*")
+    .select("*", { count: "exact" })
     .order("sort_order", { ascending: true });
+
+  if (search) {
+    query = query.or(`name.ilike.%${search}%,description.ilike.%${search}%`);
+  }
+
+  // If no pagination params, return all (backward compat)
+  if (searchParams.has("page")) {
+    query = query.range(offset, offset + limit - 1);
+  }
+
+  const { data, error, count } = await query;
 
   if (error) {
     return NextResponse.json({ error: error.message }, { status: 500 });
   }
 
-  return NextResponse.json({ categories: data });
+  return NextResponse.json({
+    categories: data,
+    total: count || data?.length || 0,
+    page,
+    limit,
+  });
 }
 
 // POST /api/categories

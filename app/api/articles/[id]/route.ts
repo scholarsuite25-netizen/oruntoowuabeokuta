@@ -114,6 +114,17 @@ export async function PUT(
     return NextResponse.json({ error: error.message }, { status: 500 });
   }
 
+  // Save revision when content or title changes
+  if (body.title !== undefined || body.content !== undefined) {
+    await supabase.from("revisions").insert({
+      article_id: params.id,
+      title: body.title || data?.title,
+      content: body.content || data?.content,
+      excerpt: body.excerpt || data?.excerpt,
+      author_id: user.id,
+    });
+  }
+
   // Handle tags
   if (body.tags && Array.isArray(body.tags)) {
     // Delete existing tag relations
