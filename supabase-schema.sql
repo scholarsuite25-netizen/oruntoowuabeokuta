@@ -51,11 +51,11 @@ CREATE TABLE IF NOT EXISTS articles (
   featured_image_alt TEXT,
   featured_image_caption TEXT,
   author_id UUID REFERENCES profiles(id),
-  category_id UUID REFERENCES categories(id),
   status TEXT DEFAULT 'draft' CHECK (status IN ('draft', 'pending', 'published', 'scheduled', 'private', 'archived', 'trash')),
   published_at TIMESTAMPTZ,
   scheduled_at TIMESTAMPTZ,
   reading_time INT,
+  allow_indexing BOOLEAN DEFAULT true
   -- SEO fields
   seo_title TEXT,
   seo_description TEXT,
@@ -87,6 +87,13 @@ CREATE TABLE IF NOT EXISTS article_tags (
   article_id UUID REFERENCES articles(id) ON DELETE CASCADE,
   tag_id UUID REFERENCES tags(id) ON DELETE CASCADE,
   PRIMARY KEY (article_id, tag_id)
+);
+
+-- Article-Categories junction (max 2 categories per article)
+CREATE TABLE IF NOT EXISTS article_categories (
+  article_id UUID REFERENCES articles(id) ON DELETE CASCADE,
+  category_id UUID REFERENCES categories(id) ON DELETE CASCADE,
+  PRIMARY KEY (article_id, category_id)
 );
 
 -- Media

@@ -18,10 +18,13 @@ export async function GET(request: NextRequest) {
 
   let query = supabase
     .from("articles")
-    .select("*, profiles(full_name, avatar_url), categories(name, slug), article_tags(tags(name, slug))", { count: "exact" });
+    .select("*, profiles(full_name, avatar_url), article_categories(category_id), article_tags(tags(name, slug))", { count: "exact" });
 
   if (status) query = query.eq("status", status);
-  if (category) query = query.eq("category_id", category);
+  // Category filtering via article_categories junction table
+  if (category) {
+    query = query.eq("article_categories.category_id", category);
+  }
   if (author) query = query.eq("author_id", author);
   if (search) {
     query = query.or(`title.ilike.%${search}%,content.ilike.%${search}%,excerpt.ilike.%${search}%`);
@@ -81,6 +84,11 @@ export async function POST(request: NextRequest) {
 
   const finalSlug = existing ? `${slug}-${Date.now()}` : slug;
 
+  // Validate categories (max 2 per article) BEFORE creating article
+  if (body.categories && Array.isArray(body.categories) && body.categories.length > 2) {
+    return NextResponse.json({ error: "Maximum 2 categories allowed per article" }, { status: 400 });
+  }
+
   const article = {
     title: body.title,
     slug: finalSlug,
@@ -90,7 +98,6 @@ export async function POST(request: NextRequest) {
     featured_image_alt: body.featured_image_alt || null,
     featured_image_caption: body.featured_image_caption || null,
     author_id: user.id,
-    category_id: body.category_id || null,
     status: body.status || "draft",
     published_at: body.status === "published" ? new Date().toISOString() : null,
     scheduled_at: body.scheduled_at || null,
@@ -123,6 +130,16 @@ export async function POST(request: NextRequest) {
       tag_id: tagId,
     }));
     await supabase.from("article_tags").insert(tagRelations);
+  }
+
+  // Handle categories (max 2 per article)
+  if (body.categories && Array.isArray(body.categories)) {
+    // Insert category relations (already validated to be <= 2)
+    const categoryRelations = body.categories.map((catId: string) => ({
+      article_id: data.id,
+      category_id: catId,
+    }));
+    await supabase.from("article_categories").insert(categoryRelations);
   }
 
   return NextResponse.json({ article: data }, { status: 201 });

@@ -79,7 +79,22 @@ export async function PUT(
   if (body.featured_image !== undefined) updates.featured_image = body.featured_image;
   if (body.featured_image_alt !== undefined) updates.featured_image_alt = body.featured_image_alt;
   if (body.featured_image_caption !== undefined) updates.featured_image_caption = body.featured_image_caption;
-  if (body.category_id !== undefined) updates.category_id = body.category_id || null;
+  if (body.categories && Array.isArray(body.categories)) {
+    // Validate max 2 categories
+    if (body.categories.length > 2) {
+      return NextResponse.json({ error: "Maximum 2 categories allowed per article" }, { status: 400 });
+    }
+    // Delete existing category relations
+    await supabase.from("article_categories").delete().eq("article_id", params.id);
+    // Insert new category relations
+    if (body.categories.length > 0) {
+      const categoryRelations = body.categories.map((catId: string) => ({
+        article_id: params.id,
+        category_id: catId,
+      }));
+      await supabase.from("article_categories").insert(categoryRelations);
+    }
+  }
   if (body.status !== undefined) updates.status = body.status;
   if (body.scheduled_at !== undefined) updates.scheduled_at = body.scheduled_at;
   if (body.seo_title !== undefined) updates.seo_title = body.seo_title;
@@ -136,6 +151,20 @@ export async function PUT(
         tag_id: tagId,
       }));
       await supabase.from("article_tags").insert(tagRelations);
+    }
+  }
+
+  // Handle categories (max 2 per article)
+  if (body.categories && Array.isArray(body.categories)) {
+    // Delete existing category relations
+    await supabase.from("article_categories").delete().eq("article_id", params.id);
+    // Insert new category relations
+    if (body.categories.length > 0) {
+      const categoryRelations = body.categories.map((catId: string) => ({
+        article_id: params.id,
+        category_id: catId,
+      }));
+      await supabase.from("article_categories").insert(categoryRelations);
     }
   }
 

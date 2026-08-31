@@ -81,7 +81,7 @@ export interface Article {
   featured_image_alt?: string;
   featured_image_caption?: string;
   author_id: string;
-  category_id?: string;
+  categories?: string[];  // UUIDs of assigned categories (max 2)
   status: ArticleStatus;
   published_at?: string;
   scheduled_at?: string;
