@@ -2,7 +2,7 @@ import { createClient } from "@/lib/supabase";
 import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const getResend = () => new Resend(process.env.RESEND_API_KEY || "re_placeholder_for_build");
 const FROM_EMAIL = process.env.FROM_EMAIL || "newsletter@oruntoowuabeokuta.org.ng";
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://oruntoowuabeokuta.org.ng";
 
@@ -101,6 +101,7 @@ export async function POST(request: NextRequest) {
     </html>
   `;
 
+  const resend = getResend();
   // Send in batches (Resend limit: 500 per batch for free tier)
   const batchSize = 100;
   let sent = 0;
