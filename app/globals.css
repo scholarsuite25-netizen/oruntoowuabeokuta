@@ -1781,6 +1781,12 @@ img { max-width: 100%; display: block; }
   gap: 6px;
 }
 
+.chat-lang-switch { display:flex; gap:4px; background: rgba(255,255,255,.12); padding:3px; border-radius:999px; }
+.chat-lang-btn { background: transparent; border:none; color:#ddd; font-size:11px; font-weight:800; cursor:pointer; padding:5px 10px; border-radius:999px; letter-spacing:.5px; }
+.chat-lang-btn.active { background:#fff; color: var(--dark); }
+.chat-lang-btn:hover { background: rgba(255,255,255,.25); }
+.chat-lang-btn.active:hover { background:#fff; }
+
 .chat-lang-toggle {
   background: rgba(255, 255, 255, .15);
   border: none;
@@ -1837,19 +1843,22 @@ img { max-width: 100%; display: block; }
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: none;
-  border: none;
+  background: var(--gold);
+  border: 1px solid #e6c200;
   cursor: pointer;
-  font-size: 14px;
-  padding: 2px 4px;
-  margin-left: 6px;
-  border-radius: 6px;
-  transition: background .15s;
+  font-size: 22px;
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  margin-left: 8px;
+  border-radius: 50%;
+  transition: transform .15s, background .15s;
   vertical-align: middle;
-  opacity: .6;
+  opacity: 1;
+  box-shadow: 0 2px 8px rgba(0,0,0,.15);
 }
 
-.chat-speak-btn:hover { opacity: 1; background: rgba(0, 0, 0, .08); }
+.chat-speak-btn:hover { transform: scale(1.08); background: #ffe733; }
 
 .chat-user {
   align-self: flex-end;

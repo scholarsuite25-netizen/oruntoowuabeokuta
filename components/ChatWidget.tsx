@@ -237,13 +237,10 @@ export default function ChatWidget() {
               </span>
             </div>
             <div className="chat-header-actions">
-              <button
-                onClick={() => setLanguage(language === "en" ? "yo" : "en")}
-                className="chat-lang-toggle"
-                title={language === "en" ? "Switch to Yoruba" : "Switch to English"}
-              >
-                {language === "en" ? "YO" : "EN"}
-              </button>
+              <div className="chat-lang-switch" title="Select language">
+                <button onClick={() => setLanguage("en")} className={`chat-lang-btn ${language === "en" ? "active" : ""}`} aria-label="English">EN</button>
+                <button onClick={() => setLanguage("yo")} className={`chat-lang-btn ${language === "yo" ? "active" : ""}`} aria-label="Yorùbá">YORÙBÁ</button>
+              </div>
               <button
                 onClick={() => setIsOpen(false)}
                 className="chat-close"
