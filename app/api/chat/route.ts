@@ -1,4 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
+import knowledge from "@/data/chat-knowledge.json";
+import { getPostsWithImages } from "@/lib/wp";
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 const GEMINI_MODEL = process.env.GEMINI_MODEL || "gemini-3.6-flash";
@@ -77,7 +79,20 @@ export async function POST(request: NextRequest) {
     );
   }
 
-  const systemPrompt = language === "yo" ? SYSTEM_PROMPT_YO : SYSTEM_PROMPT_EN;
+  // --- RAG: fetch top relevant site articles for context (zero-cost) ---
+  let ragContext = "";
+  try {
+    const hits = await getPostsWithImages({ search: message, perPage: 3 });
+    if (hits.length > 0) {
+      ragContext = "\n\nRELEVANT SITE EXCERPTS (use to ground answer and cite):\n" + hits.map((h, i) => `${i+1}. "${h.title.rendered}" — ${h.excerpt.rendered.replace(/<[^>]+>/g,"").slice(0,280)} [${h.slug}]`).join("\n");
+    }
+  } catch {}
+
+  // Few-shot examples from curated knowledge (for accuracy + Yoruba fluency)
+  const fewShot = (knowledge as any[]).slice(0,2).map(k => language === "yo" ? `Q: ${k.q_yo}\nA: ${k.a_yo}` : `Q: ${k.q_en}\nA: ${k.a_en}`).join("\n\n");
+
+  const basePrompt = language === "yo" ? SYSTEM_PROMPT_YO : SYSTEM_PROMPT_EN;
+  const systemPrompt = basePrompt + (fewShot ? `\n\nFEW-SHOT EXAMPLES:\n${fewShot}` : "") + ragContext;
 
   // Build conversation history for Gemini
   const contents: GeminiContent[] = [];

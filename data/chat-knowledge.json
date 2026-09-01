@@ -1,0 +1,32 @@
+[
+  {
+    "q_en": "What is Orunto?",
+    "a_en": "Orunto is the revered kingmaker institution of the Owu Kingdom in Abeokuta. Orunto are the chiefs who select, install and guide the Olowu (the king). They embody character (ìwà), tradition and institutions — the process includes Ipebi (seclusion), rites and communal validation.",
+    "q_yo": "Kí ni Orunto?",
+    "a_yo": "Orunto ni àjọ àwọn afọbajẹ (kingmakers) ní Ìjọba Owu ní Abẹ́òkúta. Àwọn Orunto ni wọ́n yan, fi jẹ́, tí wọ́n sì ń tọ́ Olówù sọ́nà. Orunto dúró fún ìwà, àṣà àti àjọ ìgbìmọ̀ — pẹ̀lú Ipebi (ìyàsọ́tọ̀), àwọn ẹ̀sìn ìbílẹ̀ àti ìfọwọ́sowọ́pọ̀ àwùjọ."
+  },
+  {
+    "q_en": "Tell me about Owu history",
+    "a_en": "Owu is one of the original Yoruba groups, tracing origin to Ile-Ife. Historically warrior traders, Owu migrated and eventually settled in Abeokuta in the 1830s with Egbas under Sodeke. Owu people maintain distinct dialect, chieftaincy and the Olowu stool.",
+    "q_yo": "Sọ̀rọ̀ nípa ìtàn Owu",
+    "a_yo": "Owu jẹ́ ọ̀kan lára àwọn Yorùbá àkọ́kọ́ tí ó ti Ilé-Ifẹ̀ wá. Wọ́n jẹ́ jagunjagun àti oníṣòwò nígbà kan, wọ́n sì kó lọ sí Abẹ́òkúta ní ọdún 1830 pẹ̀lú àwọn Ẹ̀gbá lọ́wọ́ Sódẹkẹ́. Owu ní èdè àdàni, oyè àti àpèrè Olówù."
+  },
+  {
+    "q_en": "What is Abeokuta known for?",
+    "a_en": "Abeokuta, capital of Ogun State, was founded c.1830 under Olumo Rock as refuge. Famous for Olumo Rock, Ake Palace, Adire tie-dye (Itoku market), and as home of Wole Soyinka, Fela Kuti's family (Ransome-Kuti), and vibrant Egba/Owu culture.",
+    "q_yo": "Kí ni Abeokuta mọ̀ fún?",
+    "a_yo": "Abẹ́òkúta, olú-ìlú Ìpínlẹ̀ Ògùn, ni wọ́n dá ní 1830 lábẹ́ Olúmọ̀ Rock gẹ́gẹ́ bí ibi ààbò. Ó mọ̀ fún Olúmọ̀ Rock, Ààfin Àkẹ́, aṣọ Adire (ọjà Itoku), àti gẹ́gẹ́ bí ilé Wọlé Soyinka àti ẹbí Ransome-Kuti."
+  },
+  {
+    "q_en": "Who founded Abeokuta?",
+    "a_en": "Abeokuta was founded around 1830 by Sodeke (Shodeke) and other Egba leaders fleeing inter-tribal wars, settling under Olumo Rock for protection.",
+    "q_yo": "Tá ni ó dá Abeokuta?",
+    "a_yo": "Abẹ́òkúta ni Sódẹkẹ́ (Shodeke) àti àwọn aṣáájú Ẹ̀gbá dá ní nǹkan bí ọdún 1830 nígbà tí wọ́n sá kúrò nínú ogun, wọ́n sì tẹ̀dó sí abẹ́ Olúmọ̀ Rock fún ààbò."
+  },
+  {
+    "q_en": "What is Ipebi?",
+    "a_en": "Ipebi is the seclusion period for an Owu Oba-elect, where he learns tradition, spirituality and governance before coronation — a sacred trust emphasizing character.",
+    "q_yo": "Kí ni Ipebi?",
+    "a_yo": "Ipebi ni àkókò ìyàsọ́tọ̀ fún Ọba Owu tí wọ́n yàn, níbi tí ó ti ń kọ́ nípa àṣà, ẹ̀mí àti ìjọba kí wọ́n tó fi jẹ́ — ẹ̀kọ́ tó jẹ́ nípa ìwà."
+  }
+]
