@@ -59,10 +59,14 @@ export default function ChatWidget() {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages]);
 
-  // Initialize speech synthesis
+  // Initialize speech synthesis + preload voices
   useEffect(() => {
     if (typeof window !== "undefined") {
       synthRef.current = window.speechSynthesis;
+      // Voices load async on some browsers
+      const loadVoices = () => window.speechSynthesis.getVoices();
+      loadVoices();
+      window.speechSynthesis.onvoiceschanged = loadVoices;
     }
   }, []);
 
@@ -82,9 +86,12 @@ export default function ChatWidget() {
     (text: string, idx: number) => {
       if (!synthRef.current) return;
       synthRef.current.cancel();
-
       const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = language === "yo" ? "yo-NG" : "en-NG";
+      // Yoruba voices rarely exist — pick best available, fallback to en-NG
+      const voices = synthRef.current.getVoices();
+      const yoVoice = voices.find((v) => v.lang.toLowerCase().startsWith("yo")) || voices.find((v) => v.lang.toLowerCase().startsWith("en-ng")) || voices.find((v) => v.lang.toLowerCase().startsWith("en")) || null;
+      if (yoVoice) utterance.voice = yoVoice;
+      utterance.lang = yoVoice ? yoVoice.lang : language === "yo" ? "yo-NG" : "en-NG";
       utterance.rate = 0.9;
       utterance.onstart = () => setSpeakingIdx(idx);
       utterance.onend = () => setSpeakingIdx(null);
