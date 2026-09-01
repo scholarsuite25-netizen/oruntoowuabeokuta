@@ -1,0 +1,12 @@
+Add your knowledge here — one Q/A per block, or free paragraphs. Example:
+
+Q: What is Orunto?
+A: Orunto is the revered kingmaker institution of the Owu Kingdom in Abeokuta. They select and guide the Olowu.
+
+Q: Kí ni Orunto?
+A: Orunto ni àjọ àwọn afọbajẹ ní Ìjọba Owu ní Abẹ́òkúta. Wọ́n yan Olówù, wọ́n sì ń tọ́ ọ sọ́nà.
+
+Free paragraph example:
+Orunto embodies character, tradition and institutions. Ipebi is the seclusion period where the Oba-elect learns governance before coronation.
+
+Add as many blocks as you want. This file is read by the chat automatically — no code needed.

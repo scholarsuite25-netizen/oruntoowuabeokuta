@@ -79,12 +79,24 @@ export async function POST(request: NextRequest) {
     );
   }
 
-  // --- RAG: fetch top relevant site articles for context (zero-cost) ---
+  // --- RAG: fetch top relevant site articles + manual txt for context (zero-cost) ---
   let ragContext = "";
   try {
     const hits = await getPostsWithImages({ search: message, perPage: 3 });
     if (hits.length > 0) {
       ragContext = "\n\nRELEVANT SITE EXCERPTS (use to ground answer and cite):\n" + hits.map((h, i) => `${i+1}. "${h.title.rendered}" — ${h.excerpt.rendered.replace(/<[^>]+>/g,"").slice(0,280)} [${h.slug}]`).join("\n");
+    }
+  } catch {}
+  // Manual text document training (data/orunto-manual.txt) — plain text, Q/A or paragraphs
+  try {
+    const fs = await import("fs/promises");
+    const path = await import("path");
+    const manualPath = path.join(process.cwd(), "data", "orunto-manual.txt");
+    const manual = await fs.readFile(manualPath, "utf-8").catch(() => "");
+    const cleaned = manual.trim();
+    // Ignore placeholder template
+    if (cleaned && !cleaned.startsWith("Add your knowledge here")) {
+      ragContext += "\n\nMANUAL KNOWLEDGE (authoritative, prioritize this):\n" + cleaned.slice(0, 4000);
     }
   } catch {}
 
